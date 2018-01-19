@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>美文赏析</h1>
+
+    <% list.forEach(function(article){ %>
+    <h3><%= article.title %></h3>
+    <p><%= article.content %></p>
+    <hr>
+    <% }); %>
+
+  </body>
+</html>
