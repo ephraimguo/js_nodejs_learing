@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/Week2_GuoYanyu_for1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/Week2_GuoYanyu_for2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/Week2_GuoYanyu_for3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/Week2_GuoYanyu_for4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/Week2_GuoYanyu_for5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/flowControl/demo02.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/flowControl/demo1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/flowControl/demo_forloop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk2/flowControl/forloop2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -151,7 +142,7 @@
     <handled-path value="$PROJECT_DIR$/wk1/lesson05/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="348" />
+    <option name="x" value="80" />
     <option name="y" value="23" />
     <option name="width" value="1449" />
     <option name="height" value="1007" />
@@ -241,7 +232,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516257075237</updated>
-      <workItem from="1516257076389" duration="18322000" />
+      <workItem from="1516257076389" duration="18808000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -271,11 +262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516343102986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week2 homework done">
+      <created>1516353895149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516353895149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18322000" />
+    <option name="totallyTimeSpent" value="18808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,7 +285,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="23" width="1449" height="1007" extended-state="0" />
+    <frame x="80" y="23" width="1449" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20658264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -343,7 +341,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commite b4 web full stack week2" />
     <MESSAGE value="5th try" />
-    <option name="LAST_COMMIT_MESSAGE" value="5th try" />
+    <MESSAGE value="Week2 homework done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week2 homework done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
