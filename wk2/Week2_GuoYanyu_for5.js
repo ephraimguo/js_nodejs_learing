@@ -7,12 +7,12 @@ var res_addon = '';
 var lines = 10; // declare the total lines of A's
 var log = console.log; // shorcut for console.log
 
-for(var i=1; i<=lines; i++){
-    for(var j=lines; j>=i; j--){
+for(leti=1; i<=lines; i++){
+    for(letj=lines; j>=i; j--){
         res += str_spc;
         if(i===j){
             res_addon = str;
-            for(var k=2; k<2*i-1; k++){
+            for(let k=2; k<2*i-1; k++){
                 res_addon += str_spc;
             }
             if(k>2) {
@@ -22,7 +22,7 @@ for(var i=1; i<=lines; i++){
         }
     }
 }
-for(var l=0; l < 2*lines+1; l++){
+for(let l=0; l < 2*lines+1; l++){
     res += str;
 }
 log(res);

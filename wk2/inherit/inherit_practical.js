@@ -31,4 +31,5 @@ console.log(newObj);
 console.log(newObj.__proto__ === proto);
 
 
-User.prototype.__proto__ = People.prototype;
+
+
