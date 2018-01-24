@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="1st push from imac home">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/1Knowing.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/2methods.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/3bondary.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/4multioption_match.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/5greedy_noneGreedy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/6group.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/7obtainEmail.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/RegExp/8foresight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/strings/indexOf_lastIndexOf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/strings/otherMethod.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/strings/trim.js" />
+    <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk3/homework/1RegExp.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wk3/strings/demo1.js" afterPath="$PROJECT_DIR$/wk3/strings/sbustr_substring_slice.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="8foresight.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="8foresight.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wk3/RegExp/8foresight.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1RegExp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wk3/homework/1RegExp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -92,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csdn_lesson03_ephraimguoyanyu/package.json" />
         <option value="$PROJECT_DIR$/csdn_lesson03/package.json" />
         <option value="$PROJECT_DIR$/lesson05/bin/www" />
         <option value="$PROJECT_DIR$/lesson05/public/test.html" />
@@ -143,6 +141,7 @@
         <option value="$PROJECT_DIR$/wk3/RegExp/obtainEmail.js" />
         <option value="$PROJECT_DIR$/wk3/RegExp/7obtainEmail.js" />
         <option value="$PROJECT_DIR$/wk3/RegExp/8foresight.js" />
+        <option value="$PROJECT_DIR$/wk3/homework/1RegExp.js" />
       </list>
     </option>
   </component>
@@ -162,9 +161,9 @@
     <handled-path value="$PROJECT_DIR$/wk1/lesson05/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="835" />
+    <option name="x" value="90" />
     <option name="y" value="22" />
-    <option name="width" value="845" />
+    <option name="width" value="1531" />
     <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -201,13 +200,7 @@
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="RegExp" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +361,7 @@
       <workItem from="1516674024343" duration="3356000" />
       <workItem from="1516678966096" duration="7865000" />
       <workItem from="1516762500582" duration="98000" />
-      <workItem from="1516762637710" duration="7512000" />
+      <workItem from="1516762637710" duration="11425000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -419,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516633051333</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1st push from imac home">
+      <created>1516774817847</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1516774817847</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48581000" />
+    <option name="totallyTimeSpent" value="52494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,10 +435,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="835" y="22" width="845" height="974" extended-state="0" />
+    <frame x="90" y="22" width="1531" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1450331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
@@ -446,7 +446,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.4957529" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45620024" sideWeight="0.49439776" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4596132" sideWeight="0.49439776" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -504,13 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk2/Week2_GuoYanyu_for4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk2/Week2_GuoYanyu_for5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -834,14 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/RegExp/5greedy_noneGreedy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk3/RegExp/7obtainEmail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -854,6 +839,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3/RegExp/5greedy_noneGreedy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3/homework/1RegExp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
