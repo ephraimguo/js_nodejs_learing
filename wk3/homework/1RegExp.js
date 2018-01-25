@@ -1,5 +1,5 @@
 
-var str = "fjskfj192.168.1.101sl fjkdsjfkls fjklsfjlsd127.0.0.1fjksldfjafjio jfk192.168.1.101sljfs function fsdjfkldsfjsklfsklffjoijfoiaf asfjs fed jfjf jf sdjfsi jfi jafis function dd ( ) { }afjsdiajf iosa function abc(){} jfisjad fjsaiofjaoissf addedfds";
+var str = "function abc(){   }fjskfj192.168.1.101sl fjkdsjfkls fjklsfjlsd127.0.0.1fjksldfjafjio jfk192.168.1.101sljfs function fsdjfkldsfjsklfsklffjoijfoiaf asfjs fed jfjf jf sdjfsi jfi jafis function dd ( ) { }afjsdiajf iosa function abc(){} jfisjad fjsaiofjaoissf function vde(){}addedfds";
 
 var re_ip = /(\d{1,3}\.){3}\d{1,3}/g;
 var res_ip_exec;
@@ -12,7 +12,7 @@ while(res_ip_exec);
 
 console.log("----------");
 
-var re_fun = /function\s\w+\s+?\(\s*?\)\s*?{\s*?}/g;
+var re_fun = /function\s\w+\s?\((\s*?)\)(\s*?){(\s*?)}/g;
 var res_fun_exec;
 
 do {
