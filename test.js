@@ -1,8 +1,35 @@
-var obj = {};
-console.log(obj);
+function asyncf(a,cb){
 
-var obj2 = new Object();
-console.log(obj2);
+    a += 1;
+    // cb(a);
 
-console.log(obj instanceof Object);
-console.log(obj2 instanceof Object);
+    setTimeout(function () {
+
+        cb(a)
+
+    },2000);
+
+}
+
+asyncf(6,function (r) {
+    console.log('this is '+ r+'最外层已经结束');
+    if(r===7){
+
+        asyncf(7,function (r) {
+            console.log('this is '+ r+'中间层已经结束');
+
+            if(r === 8){
+
+                asyncf(8,function (r) {
+                    console.log('this is '+ r);
+                    console.log("finish!")
+
+                })
+
+            }
+
+        })
+
+    }
+
+});
