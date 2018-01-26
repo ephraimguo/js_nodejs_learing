@@ -54,5 +54,4 @@ main(2, function(r){
  */
 
 
-var s = 123;
-log(isNaN('s'));
+
