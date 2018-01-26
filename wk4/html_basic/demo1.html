@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo1</title>
+    <style>
+        h1{
+            color:black;
+            background: #e4e4e4;
+        }
+    </style>
+
+    <script>
+        window.onload = function(){
+
+            var head1 = document.querySelector('#title');
+            setTimeout(function(){
+                head1.style.color = '#eee';
+            }, 1000);
+
+            alert(head1.dataset);
+
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title" tabindex="1" title="this is a heading" data-eng="h1data">
+            hello world
+        </h1>
+    </div>
+</body>
+</html>
