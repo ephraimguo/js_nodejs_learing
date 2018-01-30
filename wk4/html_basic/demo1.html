@@ -8,38 +8,31 @@
             color:black;
             background: #e4e4e4;
         }
+        span{
+            color: red;
+        }
     </style>
 
+    <script>
+        window.onload = function(){
+
+            var head1 = document.querySelector('#title');
+            setTimeout(function(){
+                head1.style.color = '#eee';
+            }, 1000);
+
+            alert(head1.dataset);
+
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h1 id="title" tabindex="1" title="this is a heading" data-eng="h1data">
-            hello world
+            hello <span>heyheyhey</span> world
         </h1>
-        <form action="">
-            <label for="intid">option one</label><input id='intid'class='int'type="radio" name="r1" value="xx">
-            <input type="radio" name="r1">
-            <input type="radio" name="r1">
-            <input type="radio" name="r1">
-            <input type="radio" name="r1">
-            <input type="radio" name="r1">
-            <input type="radio" name="r1">
-            <input type="radio" name="r1">
-            <hr>
-            <select name="s1" id="sel1" multiple required>
-                <option value="o1">a</option>
-                <option value="o2">b</option>
-                <option value="o3">c</option>
-                <option value="o4">d</option>
-                <option value="o5">e</option>
-                <option value="06">f</option>
-            </select>
-            <hr>
+        <button>this is a button</button>
 
-            <hr>
-            <input type="reset">
-            <input type="submit">
-        </form>
     </div>
 </body>
 </html>
