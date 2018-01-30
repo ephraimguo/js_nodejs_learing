@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get elements</title>
+
+    <script>
+        window.onload = function (){
+            var oH1 = document.querySelector('#h1');
+            var oH2 = document.querySelector('#h2');
+            var oH3 = document.querySelector('#h3');
+
+            oH1.style.backgroundColor = '#feabcb';
+            oH2.style.backgroundColor = '#1fadea';
+            oH3.style.backgroundColor = '#987123';
+
+            var myh1 = document.querySelector('h1[name=\"myh1\"]');
+            myh1.style.color = 'green';
+            var efg = document.querySelector('.efg');
+            efg.style.color = 'white';
+
+        }
+    </script>
+</head>
+<body>
+<h1 id="h1" name="myh1">heading 1</h1>
+<h1 id="h2" class="abc efg">heading 2</h1>
+<h1 id="h3">heading 3</h1>
+</body>
+</html>
