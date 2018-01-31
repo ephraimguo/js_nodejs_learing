@@ -1,0 +1,17 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+    background-color:darkgray;
+    /*width: 300px;*/
+    height: 300px;
+    padding: 20px;
+    border: 15px solid cyan;
+    /*box-sizing: border-box;*/
+    margin: 20px;
+    min-width: 480px;
+    max-width: 1000px;
+}

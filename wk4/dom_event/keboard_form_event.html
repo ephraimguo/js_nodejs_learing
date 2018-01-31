@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>keyboard form event</title>
+</head>
+<body>
+
+<form action="">
+    <input type="text" name="txt" value="">
+
+
+</form>
+
+
+<script>
+    const input = document.querySelector('input');
+    input.addEventListener('keypress', function(){
+        console.log(event.target.value);
+    })
+</script>
+</body>
+</html>

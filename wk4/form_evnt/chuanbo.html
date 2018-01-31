@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuanbo</title>
+
+    <style>
+
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: darkcyan;
+            position: absolute;
+        }
+
+        #div2{
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+            position: absolute;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            const oDiv = document.querySelector('body>div');
+            const oDivSub = oDiv.querySelector('#div2');
+
+            let timer = null;
+
+            oDiv.addEventListener('click', function(event){
+//                clearInterval(timer);
+//                if(timer!=null){
+//                    timer = null;
+//                }
+//                else{
+//                    timer = setInterval(function(){
+//                        oDiv.style.top = oDiv.offsetTop + 10 +'px';
+//                        oDiv.style.left = oDiv.offsetLeft + 10 +'px';
+//
+//                    }, 100);
+//                }
+
+                console.log('outer div is clicked');
+            });
+
+            oDivSub.addEventListener('click', function(event){
+                console.log('inner div is clicked');
+                event.stopPropagation();
+
+            })
+
+
+        }
+    </script>
+
+</head>
+<body>
+
+<div>
+    <div id="div2">
+
+    </div>
+
+</div>
+</body>
+</html>

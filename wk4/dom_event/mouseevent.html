@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouse</title>
+
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            border: 1px solid darkcyan;
+        }
+    </style>
+</head>
+<body>
+
+<span ondblclick="dlclickme()" onclick="clickme()">abc</span>
+
+<div onclick="clickDiv(event)">
+    <p>this is a paragraph</p>
+</div>
+
+<script>
+    function clickme(event) {
+        const dom = document.querySelector('span');
+        dom.style.backgroundColor = '#c4c4c4';
+    }
+
+    function dlclickme(event){
+        const dom = document.querySelector('span');
+        dom.style.backgroundColor = '#345678';
+
+    }
+
+    function clickDiv(event) {
+        event.target.style.backgroundColor = '#c4c4c4';
+    }
+
+</script>
+</body>
+</html>

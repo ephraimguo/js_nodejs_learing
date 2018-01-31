@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form2</title>
+
+    <script>
+        window.onload = function(){
+            const input = document.querySelector('input[type=text]');
+            const submitBtn = document.querySelector('.submit');
+            const form = document.querySelector('form');
+
+            input.addEventListener('change', function(event){
+                console.log(event.target.value);
+            });
+
+            form.addEventListener('submit', function(event){
+                event.preventDefault();
+            });
+
+            document.addEventListener('contextmenu', function(event){
+                event.preventDefault();
+            })
+
+        }
+    </script>
+
+</head>
+<body>
+<form class="form1" action="index.html" method="post">
+    <input type="text" name="input1" value="">
+    <input type="submit" value="I like to submit">
+</form>
+</body>
+</html>
