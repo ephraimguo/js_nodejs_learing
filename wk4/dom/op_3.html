@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>op 3</title>
+
+    <style>
+        div{
+            border: 15px solid pink;
+            width: 300px;
+            height: 100px;
+        }
+
+        p{
+            border: 1px solid red;
+        }
+
+        #ctn{
+            background-color: #00B7FF;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function () {
+            var oDiv = document.querySelector('#div1');
+            var aPara = document.querySelectorAll('.testing');
+
+            oDiv.insertAdjacentElement('beforebegin', aPara[0]);
+            oDiv.insertAdjacentElement('afterbegin', aPara[1]);
+            oDiv.insertAdjacentHTML('beforeend', '<input type="button" value="test button">');
+            oDiv.insertAdjacentElement('afterend', aPara[3]);
+        }
+
+    </script>
+
+</head>
+<body>
+<div id="div1">
+    <p id="ctn">this is the content of the div</p>
+</div>
+<p id="p1" class="testing">this is the beforebegin paragraph</p>
+<p id="p2" class="testing">this is the afterbegin paragraph</p>
+<p id="p3" class="testing">this is the beforeend paragraph</p>
+<p id="p4" class="testing">this is the afterend paragraph</p>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>op_2</title>
+    <script>
+        window.onload = function () {
+            var oDiv = document.querySelector('#div1');
+            var oDiv2 = document.querySelector('#div2');
+            var oDiv3 = document.querySelector('#div3');
+
+            var oBtn = document.querySelector('#btn1');
+            var oBtn2 = document.querySelector('#btn2');
+
+            var oP = document.querySelector('#p1');
+
+            var addForm = `
+                <form>
+                    <input type="text" placeholder="text">
+                    <select name="sel" id="sel">
+                        <option value="1">option1</option>
+                        <option value="2">option2</option>
+                        <option value="3">option3</option>
+                        <option value="4">option4</option>
+                    </select>
+                </form>
+            `;
+
+            var changeCont = `
+                <p>this is a paragraph</p>
+            `;
+
+            oBtn.onclick = function(){
+                oDiv.innerHTML = addForm;
+            };
+
+            oBtn2.onclick = function(){
+                oDiv2.outerHTML = changeCont;
+            };
+
+            oDiv3.appendChild(oP.cloneNode(true));
+        }
+    </script>
+
+</head>
+<body>
+
+<button id="btn1" onclick="">add form</button>
+<button id="btn2" onclick="">change content</button>
+
+<div id="div1">
+
+</div>
+
+<div id="div2" style="width: 200px; height: 300px; border: 1px solid red;"></div>
+<div id="div3" style="width: 200px; height: 300px; border: 1px solid red;"></div>
+
+
+<ul >
+    <li>    this is the testing for clone
+    </li>
+</ul>
+
+
+<p id="p1">this is the testing for clone</p>
+
+</body>
+</html>
