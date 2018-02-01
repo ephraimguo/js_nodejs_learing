@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+
+    flex-wrap: wrap;
+    align-content: space-around;
+
+    width:300px;
+    height:300px;
+    border: #666666 solid 1px;
+}
+
+.container span{
+    /*display: block;*/
+    width: 50px;
+    /*min-height: 50px;*/
+    height: 50px;
+    background: linear-gradient(to left, darkcyan, darkblue);
+    margin:5px;
+}
