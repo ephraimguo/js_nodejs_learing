@@ -1,0 +1,35 @@
+section.products{
+    margin: 0 auto;
+    width: 600px;
+    min-height: 200px;
+    border: teal 10px solid;
+    border-radius: 10px 5px 5px 10px;
+}
+
+.product{
+    float: left;
+    width: 150px;
+    height: 120px;
+    border: 1px solid #00B7FF;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+}
+.product>h4{
+    margin:0;
+}
+.product>p{
+    margin:0;
+    font-size: 10pt;
+}
+.product>img{
+    width: 120px;
+    height: 80px;
+    margin: 0;
+}
+.products:after{
+    content: 'end of the box';
+    display: block;
+    clear: both;
+}

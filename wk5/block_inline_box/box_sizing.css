@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid red;
+    background-color: bisque;
+}
+
+#div2{
+    box-sizing: border-box;
+}
+
+#div3{
+    box-sizing: content-box;
+}
