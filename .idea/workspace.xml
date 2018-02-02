@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/@media/media.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/@media/media.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/backgroundPlay/bg_1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/backgroundPlay/bg_1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/backgroundPlay/p.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/flex_cal/cal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/flex_cal/calculator.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/flex_cal/layoutPrac_flex.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/flex_cal/layoutPrac_flex.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/text/text.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/animation/demo1.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/animation/demo1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/transition/menu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/transition/transition.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change beforePath="$PROJECT_DIR$/wk5/text/text.html" afterPath="$PROJECT_DIR$/wk5/text/text.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="text.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wk5/text/text.html">
+      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo1.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -43,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -62,10 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wk4/html_basic/demo4.html" />
-        <option value="$PROJECT_DIR$/wk4/dom/getElement.html" />
-        <option value="$PROJECT_DIR$/wk4/dom/sibling.html" />
-        <option value="$PROJECT_DIR$/wk4/dom/operation.html" />
         <option value="$PROJECT_DIR$/wk4/dom/op_2.html" />
         <option value="$PROJECT_DIR$/wk4/dom/op_3.html" />
         <option value="$PROJECT_DIR$/wk4/dom_event/after_loaded.html" />
@@ -113,6 +113,10 @@
         <option value="$PROJECT_DIR$/wk5/@media/media.css" />
         <option value="$PROJECT_DIR$/wk5/@media/media.html" />
         <option value="$PROJECT_DIR$/wk5/text/text.html" />
+        <option value="$PROJECT_DIR$/wk5/transition/transition.html" />
+        <option value="$PROJECT_DIR$/wk5/transition/menu.html" />
+        <option value="$PROJECT_DIR$/wk5/animation/demo1.html" />
+        <option value="$PROJECT_DIR$/wk5/animation/demo1.css" />
       </list>
     </option>
   </component>
@@ -180,13 +184,7 @@
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk5" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk5" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +387,7 @@
       <workItem from="1516982392586" duration="40000" />
       <workItem from="1517071140604" duration="3212000" />
       <workItem from="1517368940844" duration="11787000" />
-      <workItem from="1517532731055" duration="6991000" />
+      <workItem from="1517532731055" duration="11262000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -503,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517373216830</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="flex @media text">
+      <created>1517547647956</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1517547647957</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137932000" />
+    <option name="totallyTimeSpent" value="142203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,41 +611,14 @@
     <MESSAGE value="homework done" />
     <MESSAGE value="html block level tag" />
     <MESSAGE value="html" />
-    <option name="LAST_COMMIT_MESSAGE" value="html" />
+    <MESSAGE value="flex @media text" />
+    <option name="LAST_COMMIT_MESSAGE" value="flex @media text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk4/html_basic/demo4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/dom/sibling.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="23" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/dom/operation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/dom/op_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk4/dom/op_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -976,8 +954,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wk5/text/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/transition/transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/transition/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>

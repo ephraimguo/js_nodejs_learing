@@ -1,0 +1,37 @@
+.box{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #aaaaaa;
+
+    animation: demo1 5s ease infinite alternate;
+}
+
+@keyframes demo1 {
+    0%{
+        top: 0;
+        left: 0;
+        background: #aaaaaa;
+        border: 1px solid red;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        background: #eeeaaa;
+        border: 5px dashed green;
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+        background: #affaaf;
+        border: 12px dotted blue;
+    }
+    75%{
+        top: 300px;
+        left: 0;
+        background: #a1bbba;
+        border: #666666 solid 1px;
+    }
+}

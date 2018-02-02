@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transition</title>
+    <style>
+        .container{
+            /*width: 200px;*/
+            height: 200px;
+            box-sizing: border-box;
+            border: 1px solid red;
+            text-align: right;
+        }
+        h2{
+            margin: 0;
+            border: 1px solid salmon;
+            line-height:198px;
+            opacity: 0;
+            color: #00B7FF;
+            font-size: 10px;
+            transition: all 1s ease-in-out .3s;
+        }
+        h2:hover{
+            color: #0a5333;
+            margin-right: 800px;
+            font-size: 20px;
+            opacity: 0.8;
+            background-color: #aaa;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>
+        this is heading for transition
+    </h2>
+</div>
+
+</body>
+</html>

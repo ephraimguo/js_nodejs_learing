@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 300px;
+            border: 1px solid red;
+            margin: 0;
+            display: flex;
+        }
+        .left{
+            width: 150px;
+            height: 100%;
+            background: #cc33ee;
+            position: relative;
+            left: -160px;
+            transition: left 1s ease-in-out 0.1s;
+        }
+        .left:hover{
+            left: 0;
+        }
+        .left>.btn{
+            position: absolute;
+            right: -27px;
+            background: #cc33ee;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left menu">
+        <div class="btn">
+            >>>
+        </div>
+    </div>
+    <!--<div class="right menu"></div>-->
+</div>
+
+
+</body>
+</html>
