@@ -1,0 +1,33 @@
+.container{
+    width: 800px;
+    height: 300px;
+    border: 1px solid red;
+    background: linear-gradient(to top, #aaa, #fff);
+}
+
+.div1, .div2{
+    margin: 10px;
+    min-height: 200px;
+    width: 300px;
+    float: left;
+}
+
+.div1{
+    background: #888888;
+}
+
+.div2{
+    background: #e4e4e4;
+}
+
+@media(max-width:600px){
+    .container{
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        background: linear-gradient(to bottom, #aaaaaa, #fff);
+    }
+    .div1, .div2{
+        float: none;
+    }
+}

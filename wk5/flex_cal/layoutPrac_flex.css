@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', "Heiti SC", sans-serif;
+}
+
+.container{
+
+    min-width: 500px;
+    max-width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.container > header{
+    background-color: #eee;
+    padding: 15px;
+    border: deeppink 1px solid;
+    border-radius: 20px 20px 0 0;
+}
+
+/*.container > header h1{*/
+    /*margin-top: 0;*/
+/*}*/
+
+.container > header > hgroup{
+    padding: 1px;
+}
+
+.container > nav{
+    background: linear-gradient(#aaa, #eee);
+}
+
+.container > nav >ul li{
+    list-style: none;
+
+}
+
+nav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+
+nav>ul>li>ul {
+    display: none;
+    width: 100px;
+    position: absolute;
+    background: linear-gradient(#eee, #666);
+}
+
+.container > nav > ul a{
+    text-decoration: none;
+    line-height: 40px;
+    padding: 10px;
+    color: #fff;
+}
+
+a:link, a:visited, a:active{
+    color: #333;
+}
+a:hover{
+    color: #fff;
+    font-size: 15pt;
+}
+
+.main{
+    border: 1px solid deeppink;
+    min-width: 500px;
+    max-width: 800px;
+    min-height: 500px;
+}
+
+.main>section{
+    min-width: 500px;
+    max-width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.product-list>h1{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.product-list>.product{
+    width: 150px;
+    height: 180px;
+    border: 1px solid #333333;
+    padding: 0;
+    text-align: center;
+    margin: 3px;
+    /*display: inline-block;*/
+}
+
+.product-list>.product h3,p{
+    margin: 0;
+}
+.product-list>.product p{
+    font-size: 15px;
+    color: #888;
+    padding: 3px;
+}
+
+.product-list>.product>img{
+    width: 120px;
+    height: 120px;
+}

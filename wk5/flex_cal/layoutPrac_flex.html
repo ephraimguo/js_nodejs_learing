@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <link rel="stylesheet" href="layoutPrac_flex.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <hgroup>
+            <h1>Main Heading</h1>
+            <h2>sub heading</h2>
+        </hgroup>
+        <p>
+            this is miaoshu this is miaoshu this is miaoshu this is miaoshu this is miaoshu this is miaoshu this is miaoshu
+        </p>
+    </header>
+    <nav>
+       <!-- <a href="">home</a>
+        <a href="">product</a>
+        <a href="">project</a>
+        <a href="">About us</a> -->
+
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">product</a></li>
+            <li><a href="">project</a>
+                <ul>
+                    <li><a href="">java</a></li>
+                    <li><a href="">js</a></li>
+                    <li><a href="">python</a></li>
+                </ul>
+            </li>
+            <li><a href="">about</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <section class="product-list">
+            <h1>产品介绍</h1>
+            <div class="product">
+                <h3>产品名称</h3>
+                <img src="../layout/p.jpg" alt="">
+                <p>产品描述</p>
+            </div></section>
+
+
+    </div>
+    <footer>
+
+    </footer>
+
+    <script>
+        window.onload = function(){
+            const oDivProduct = document.querySelector('.product');
+            const oSectionPList = document.querySelector('.product-list');
+
+            const navDropDown = document.querySelector('nav > ul > li > ul');
+            const navMouseOver = document.querySelector('nav > ul > li:nth-child(3)');
+            navMouseOver.onmousemove = function(){
+                navDropDown.style.display = 'block';
+            };
+            navMouseOver.onmouseout = function(){
+                navDropDown.style.display = 'none';
+            };
+
+            for(let i = 0; i<23; i++){
+                oSectionPList.insertAdjacentHTML('beforeEnd', oDivProduct.outerHTML);
+            }
+//            oDivProduct.remove();
+
+
+        }
+    </script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.container{
+    width: 500px;
+    opacity: 0.4;
+    height: 300px;
+    padding: 30px;
+    border: 40px  #ffffff dashed;
+    overflow: scroll;
+    background: url("p.jpg") no-repeat center;
+    background-size: cover;
+    background-origin: border-box;
+}
