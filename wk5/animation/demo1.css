@@ -15,23 +15,30 @@
         left: 0;
         background: #aaaaaa;
         border: 1px solid red;
+        transform: rotate(45deg);
     }
     25%{
         top: 0;
         left: 300px;
         background: #eeeaaa;
         border: 5px dashed green;
+        transform: rotate(90deg);
+
     }
     50%{
         top: 300px;
         left: 300px;
         background: #affaaf;
         border: 12px dotted blue;
+        transform: rotate(135deg);
+
     }
     75%{
         top: 300px;
         left: 0;
         background: #a1bbba;
         border: #666666 solid 1px;
+        transform: rotate(180deg);
+
     }
 }

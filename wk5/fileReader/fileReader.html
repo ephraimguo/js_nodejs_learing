@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>file reader api</title>
+
+    <script>
+        window.onload = function(){
+            const input = document.querySelector('input');
+            input.addEventListener('change', function(event){
+                const file = input.files[0];               // 获得上传文件的信息，file并非真正的文件，可以理解为文件的一个索引
+                const file_reader = new FileReader();     // 创建读取器
+                file_reader.onload = function () {        //当文件读取完毕之后，调用该onload function内部的代码
+                    const img = new Image();
+                    file_reader.result;                   // 数据结果
+                    img.src = file_reader.result;
+                    img.style.width = '300px';
+                    img.style.height = '800px';
+                    document.body.appendChild(img);
+                };
+                file_reader.readAsDataURL(file);  // 读取后转换数据
+            });
+
+        }
+
+    </script>
+</head>
+<body>
+
+<form action="">
+    <input type="file">
+</form>
+</body>
+</html>

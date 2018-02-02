@@ -1,0 +1,57 @@
+.cube {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    transform-style: preserve-3d;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    transform: rotateX(30deg) rotateY(30deg) ;
+    /*transform: rotateZ(30deg) rotateX(30deg);*/
+}
+
+.cube:hover{
+    animation: rotating 5s infinite alternate;
+}
+@keyframes rotating {
+    0%{
+        transform:rotateX(30deg) rotateY(30deg);
+    }
+    25%{
+        transform:rotateX(90deg) rotateY(90deg);
+    }
+    50%{
+        transform:rotateX(150deg) rotateY(150deg);
+    }
+    75%{
+        transform:rotateX(210deg) rotateY(210deg);
+    }
+    100%{
+        transform:rotateX(270deg) rotateY(270deg);
+    }
+}
+
+.part{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+.part:nth-child(1){
+    background: yellow;
+    transform: translateY(150px) rotateX(90deg);
+
+}
+.part:nth-child(2){
+    background: red;
+    transform: translateY(-150px) rotateX(-90deg);
+}
+.part:nth-child(3){
+    background: blue;
+    transform: translateX(-150px) rotateY(-90deg);
+}
+.part:nth-child(4){
+    background: green;
+    transform: translateX(150px) rotateY(90deg);
+}

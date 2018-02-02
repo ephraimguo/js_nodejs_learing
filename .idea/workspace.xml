@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/animation/demo1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/animation/demo1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/transition/menu.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/transition/transition.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/2D/global.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/2D/rotate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/2D/scale.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/2D/translation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/3D/demo1.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/3D/demo1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk5/fileReader/fileReader.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wk5/text/text.html" afterPath="$PROJECT_DIR$/wk5/text/text.html" />
+      <change beforePath="$PROJECT_DIR$/wk5/animation/demo1.css" afterPath="$PROJECT_DIR$/wk5/animation/demo1.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.html">
+      <file leaf-file-name="responsive_thirdLevelMenu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="33" column="39" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="33" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo1.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.css">
+      <file leaf-file-name="responsive_thirdLevelMenu.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="182">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -47,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,16 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wk4/dom/op_2.html" />
-        <option value="$PROJECT_DIR$/wk4/dom/op_3.html" />
-        <option value="$PROJECT_DIR$/wk4/dom_event/after_loaded.html" />
-        <option value="$PROJECT_DIR$/wk4/dom_event/mouseevent.html" />
-        <option value="$PROJECT_DIR$/wk4/dom_event/keboard_form_event.html" />
-        <option value="$PROJECT_DIR$/wk4/form_evnt/form.html" />
-        <option value="$PROJECT_DIR$/wk4/form_evnt/form2.html" />
-        <option value="$PROJECT_DIR$/wk4/form_evnt/chuanbo.html" />
-        <option value="$PROJECT_DIR$/wk4/meta/meta_responsive.html" />
-        <option value="$PROJECT_DIR$/wk5/box.css" />
         <option value="$PROJECT_DIR$/wk5/css1.html" />
         <option value="$PROJECT_DIR$/wk5/inline_1.html" />
         <option value="$PROJECT_DIR$/wk5/inline_1.css" />
@@ -116,7 +111,17 @@
         <option value="$PROJECT_DIR$/wk5/transition/transition.html" />
         <option value="$PROJECT_DIR$/wk5/transition/menu.html" />
         <option value="$PROJECT_DIR$/wk5/animation/demo1.html" />
+        <option value="$PROJECT_DIR$/wk5/2D/global.css" />
+        <option value="$PROJECT_DIR$/wk5/2D/translation.html" />
+        <option value="$PROJECT_DIR$/wk5/2D/scale.html" />
+        <option value="$PROJECT_DIR$/wk5/2D/rotate.html" />
         <option value="$PROJECT_DIR$/wk5/animation/demo1.css" />
+        <option value="$PROJECT_DIR$/wk5/3D/demo1.html" />
+        <option value="$PROJECT_DIR$/wk5/3D/demo1.css" />
+        <option value="$PROJECT_DIR$/wk5/fileReader/fileReader.html" />
+        <option value="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/practise.html" />
+        <option value="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.html" />
+        <option value="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.css" />
       </list>
     </option>
   </component>
@@ -136,7 +141,7 @@
     <handled-path value="$PROJECT_DIR$/wk1/lesson05/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
+    <option name="x" value="208" />
     <option name="y" value="22" />
     <option name="width" value="1458" />
     <option name="height" value="976" />
@@ -184,7 +189,19 @@
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk5" type="462c0819:PsiDirectoryNode" />
-              <item name="animation" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_助教看这里" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk5" type="462c0819:PsiDirectoryNode" />
+              <item name="layout_practise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk5" type="462c0819:PsiDirectoryNode" />
+              <item name="transition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,6 +230,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
       <recent name="$PROJECT_DIR$/wk5/backgroundPlay" />
       <recent name="$PROJECT_DIR$/wk5/flex_cal" />
       <recent name="$PROJECT_DIR$/wk5/flexlayout" />
@@ -387,7 +405,7 @@
       <workItem from="1516982392586" duration="40000" />
       <workItem from="1517071140604" duration="3212000" />
       <workItem from="1517368940844" duration="11787000" />
-      <workItem from="1517532731055" duration="11262000" />
+      <workItem from="1517532731055" duration="18797000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -508,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517547647957</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="animation">
+      <created>1517553397477</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1517553397477</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142203000" />
+    <option name="totallyTimeSpent" value="149738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,10 +549,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="22" width="1458" height="976" extended-state="0" />
+    <frame x="208" y="22" width="1458" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17814893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
@@ -612,76 +637,14 @@
     <MESSAGE value="html block level tag" />
     <MESSAGE value="html" />
     <MESSAGE value="flex @media text" />
-    <option name="LAST_COMMIT_MESSAGE" value="flex @media text" />
+    <MESSAGE value="animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk4/dom/op_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/dom_event/after_loaded.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/dom_event/mouseevent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/dom_event/keboard_form_event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/form_evnt/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/form_evnt/form2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/form_evnt/chuanbo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="47" column="52" lean-forward="false" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk4/meta/meta_responsive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk5/block_inline_box/box.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk5/block_inline_box/inline_1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -960,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk5/transition/transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk5/transition/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -976,18 +931,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.html">
+    <entry file="file://$PROJECT_DIR$/wk5/2D/translation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/2D/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/2D/scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/2D/rotate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/animation/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/fileReader/fileReader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/transition/transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding />
         </state>
       </provider>
