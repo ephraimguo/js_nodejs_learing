@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/responsive_thirdLevelMenu.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/hmwk.css" afterPath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/hmwk.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/wk5_homework.html" afterPath="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里/wk5_homework.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -184,6 +184,12 @@
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk5" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_助教看这里" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,7 +393,7 @@
       <workItem from="1517071140604" duration="3212000" />
       <workItem from="1517368940844" duration="11787000" />
       <workItem from="1517532731055" duration="18797000" />
-      <workItem from="1517752930672" duration="3621000" />
+      <workItem from="1517752930672" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -522,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517684663724</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="homework done">
+      <created>1517756591777</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1517756591777</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158012000" />
+    <option name="totallyTimeSpent" value="158041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,9 +552,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1014" y="26" width="1518" height="1335" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16633266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16633266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4957529" order="8" side_tool="false" content_ui="tabs" />
@@ -622,13 +634,13 @@
     <MESSAGE value="Week2 homework done" />
     <MESSAGE value="1st push from imac home" />
     <MESSAGE value="RegExp homework done" />
-    <MESSAGE value="homework done" />
     <MESSAGE value="html block level tag" />
     <MESSAGE value="html" />
     <MESSAGE value="flex @media text" />
     <MESSAGE value="animation" />
     <MESSAGE value="homework 40%" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 40%" />
+    <MESSAGE value="homework done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -751,6 +763,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512703232000" expanded="true" signature="115:1501" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="130:463" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="161:450" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="475:771" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="508:758" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="783:1149" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="815:1136" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1161:1490" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1188:1477" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1558:3365" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1630:1941" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1670:1926" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1955:2193" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="1990:2178" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="2207:2622" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="2246:2607" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="2636:2976" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="2673:2961" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="2990:3354" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="3031:3339" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="3400:3856" ph="..." />
+            <marker date="1512703232000" expanded="true" signature="3417:3537" ph="{...}" />
+            <marker date="1512703232000" expanded="true" signature="3559:3590" ph="{...}" />
+            <marker date="1512703232000" expanded="true" signature="3613:3622" ph="{...}" />
+            <marker date="1512703232000" expanded="true" signature="3638:3761" ph="{...}" />
+            <marker date="1512703232000" expanded="true" signature="3780:3843" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -931,6 +971,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
