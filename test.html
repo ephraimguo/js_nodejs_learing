@@ -18,6 +18,10 @@
             background: linear-gradient(to left, tomato, aquamarine);
         }
 
+        .block{
+            background: #44ffbb;
+        }
+
          @media(max-width: 400px) {
              div{
                  width: auto;
@@ -32,6 +36,16 @@
          }
 
     </style>
+
+    <script>
+        window.onload =function () {
+            var div = document.querySelector('#div1');
+
+            div.onclick = function () {
+                div.classList.toggle('')
+            }
+        }
+    </script>
 </head>
 <body>
 

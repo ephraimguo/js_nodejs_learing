@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+.block{
+  display: block;
+}
+
 .container{
   margin: 0 auto;
   border: #333;
@@ -55,7 +59,7 @@ nav{
   height: 40px;
   background: linear-gradient(to right, aquamarine,darkcyan);
 }
-nav>ul>li:last-child{
+.active{
   display: none;
 }
 nav>ul>li{
@@ -108,7 +112,6 @@ nav>ul>li:nth-child(3):hover>.dropdown-1{
   display: block;
 }
 
-
 /* navs end */
 
 /*products start*/
@@ -148,6 +151,69 @@ nav>ul>li:nth-child(3):hover>.dropdown-1{
 
 /*products end*/
 
+/*footer start*/
+footer{
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+footer>div{
+  background: linear-gradient(to right, aquamarine, darkcyan);
+  min-height:200px;
+  min-width: 300px;
+  width: 33.33%;
+  text-align: center;
+}
+footer>div img{
+  position: relative;
+  top: 20px;
+}
+footer>div p{
+  position: relative;
+  bottom: -20px;
+
+}
+/*footer end*/
+
+@media(max-width:600px){
+  header h4, header>hr{
+    display: none;
+  }
+  nav{
+    width: auto;
+    height: auto;
+  }
+  nav>ul{
+    display: none;
+    height: auto;
+    width: auto;
+  }
+  nav>ul>li{
+    display:block;
+    position: relative;
+  }
+  .active{
+    display: block;
+  }
+  /*.dropdown-1{*/
+  /*display:none;*/
+  /*width: auto;*/
+  /*}*/
+  .dropdown-1{
+    position: absolute;
+    left: 100px;
+    top: -10px;
+  }
+  .dropdown-1>li{
+    display: block;
+  }
+  footer>div{
+    width: 100%;
+    box-sizing: border-box;
+    border-left: 2px solid #fff;
+  }
+}
 
 
 

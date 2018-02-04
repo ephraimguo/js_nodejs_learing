@@ -3,15 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="week 5 home work for 3 levels dropdown menu and responsive layout for mobile end">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>week 5 home work</title>
     <link rel="stylesheet" href="hmwk.css">
     <script>
       window.onload=function(){
           const oProduct = document.querySelector('.main>.product');
           const oList = document.querySelector('.main>.product div');
+          const oNav = document.querySelector('.main>nav>ul');
+          const oNavBtn = document.querySelector('.main>nav>ul>li');
+          const oActive = document.querySelector('.active');
 
           for(let i=0; i<27; i++){
               oProduct.insertAdjacentHTML('beforeEnd', oList.outerHTML);
+          }
+
+          oActive.onclick = function () {
+              oNav.classList.toggle('block');
+              oNavBtn.classList.toggle('block');
           }
       }
     </script>
@@ -72,8 +81,8 @@
               </ul>
             </li>
             <li><a href="#">ABOUT US</a></li>
-            <li><a href="#"> >>> </a></li>
           </ul>
+          <li><a href="#" class="active"> >>> </a></li>
         </nav>
         <!--nav bar end-->
 
@@ -90,7 +99,21 @@
       <!-- product section ends -->
 
       <footer>
-
+        <div>
+          <hr>
+          <img src="bird.jpeg" alt="this is logo">
+          <p><span>Bird Website</span></p>
+        </div>
+        <div>
+          <hr>
+          <img src="bird.jpeg" alt="this is logo">
+          <p><span>Bird Website</span></p>
+        </div>
+        <div>
+          <hr>
+          <img src="bird.jpeg" alt="this is logo">
+          <p><span>Bird Website</span></p>
+        </div>
       </footer>
 
     </div>
