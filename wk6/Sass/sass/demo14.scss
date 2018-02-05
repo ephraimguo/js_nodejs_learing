@@ -1,0 +1,7 @@
+@function func1($a){
+  @return $a+12px;
+}
+
+div{
+  font-size: #{func1(15)};
+}

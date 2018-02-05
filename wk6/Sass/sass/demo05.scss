@@ -1,0 +1,24 @@
+$bgc: #666;
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  min-height: 500px;
+
+  > nav{
+    height: 30px;
+    background-color: $bgc;
+    margin: 10px 0;
+  }
+
+  .content{
+    height: 100px;
+    background-color: $bgc;
+  }
+
+  > footer{
+    height: 50px;
+    background-color: $bgc;
+    margin: 10px 0;
+  }
+}

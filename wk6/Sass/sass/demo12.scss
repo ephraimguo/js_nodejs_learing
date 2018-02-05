@@ -1,0 +1,24 @@
+@mixin btn-common{
+  width: 300px;
+  min-height: 300px;
+  border: 1px solid red;
+}
+
+@mixin func($a, $b){
+  attr_1: $a;
+  attr_2: $b;
+}
+
+.btn1{
+  @include btn-common;
+  background-color: #affaaf;
+}
+.btn2{
+  @include btn-common;
+  background-color: #00B7FF;
+}
+
+.btn3{
+  attr_3: 32px;
+  @include func(123, 'black');
+}

@@ -1,0 +1,24 @@
+$h: 300px;
+$w: 300px;
+$dcre: 100px;
+$bg: #44a6ff;
+
+@mixin minus{
+  width: $w;
+  height: $h;
+  background-color: $bg;
+
+  $bg: mix($bg, #333) !global;
+  $w: $w - 100px !global;
+  $h: $h - 100px !global;
+}
+
+body>div{
+  @include  minus;
+  >div{
+    @include  minus;
+    >div{
+      @include  minus;
+    }
+  }
+}

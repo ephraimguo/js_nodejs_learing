@@ -1,0 +1,30 @@
+$a:15px;
+$b:10px;
+
+@if($a>$b){
+  .abc{
+    color: red;
+  }
+}
+@else{
+  .abc{
+    color: blue;
+  }
+}
+
+div{
+  @for $v from 1 through 5{
+    &:nth-child(#{$v}){
+      background-color: #affaaf;
+      min-height: 100px;
+      margin: 5px 0 ;
+    }
+  }
+}
+
+$arr : red green blue yellow black cyan;
+@each $v in $arr{
+  .#{$v}{
+    background: $v;
+  }
+}

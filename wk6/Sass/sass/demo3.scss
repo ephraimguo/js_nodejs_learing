@@ -1,0 +1,12 @@
+nav{
+  height: 30px;
+  background-color: #ccc;
+  a{
+    text-decoration: none;
+    line-height: 30px;
+    &:hover{
+      font-size: 20px;
+      color: #333;
+    }
+  }
+}

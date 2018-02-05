@@ -1,0 +1,61 @@
+$bgc: #2658a8;
+
+@mixin cmp{
+  margin: 0;
+  padding: 0;
+}
+@mixin bgc($c){
+  $bgc: mix($bgc,$c) !global;
+  background-color: $bgc;
+}
+
+body{
+  @include cmp;
+  background-color: $bgc;
+}
+.container{
+  min-height: 500px;
+  @include bgc(cyan);
+  padding: 0 150px 0 150px;
+
+  >header{
+    @include bgc(darkcyan);
+    height: 200px;
+    overflow: hidden;
+  }
+  >.content{
+    min-height: 300px;
+    @include bgc(#fff);
+
+    @mixin mxc{
+      float: left;
+      min-height: 300px;
+      border: 1px solid red;
+      box-sizing: border-box;
+    }
+
+    >.main{
+      width: 100%;
+      @include mxc;
+    }
+    >.left{
+      width: 150px;
+      @include mxc;
+    }
+    >.right{
+      width: 150px;
+      @include mxc;
+    }
+  }
+  >.content::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+
+  >footer{
+    @include bgc(#666);
+    min-height: 50px;
+  }
+}
