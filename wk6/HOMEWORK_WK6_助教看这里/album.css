@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: "Helvetica", "Heiti SC", sans-serif;
+}
+
+.container{
+    min-height: 300px;
+    background-color: #fff;
+    margin: 10px 20px;
+}
+
+header h4{
+    height: 25px;
+    padding: 10px 0 0 10px;
+    color: #999;
+    background: linear-gradient(to right, #eee, #999);
+}
+
+.content{
+    background-color: #eee;
+    min-height:275px;
+    display:flex;
+}
+
+.box{
+    background: #fff;
+    min-height: 275px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.left{
+    width:30%;
+}
+.album{
+    text-align: right;
+}
+.album-name{
+    padding-left: -5px;
+}
+
+
+
+
+.display{
+    width: 70%;
+}
+

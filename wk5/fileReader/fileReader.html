@@ -15,7 +15,7 @@
                     file_reader.result;                   // 数据结果
                     img.src = file_reader.result;
                     img.style.width = '300px';
-                    img.style.height = '800px';
+                    img.style.maxHeight = '300px';
                     document.body.appendChild(img);
                 };
                 file_reader.readAsDataURL(file);  // 读取后转换数据
@@ -24,6 +24,13 @@
         }
 
     </script>
+
+    <style>
+        img{
+            margin: 10px;
+            border: 2px solid gray;
+        }
+    </style>
 </head>
 <body>
 
