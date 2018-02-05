@@ -1,4 +1,5 @@
-$bgc: #2658a8;
+$color: #41b8f4;
+$bgc: $color;
 
 @mixin cmp{
   margin: 0;
@@ -12,6 +13,7 @@ $bgc: #2658a8;
 body{
   @include cmp;
   background-color: $bgc;
+  font-family: "Helvetica", "Heiti SC", sans-serif;
 }
 .container{
   min-height: 500px;
@@ -23,6 +25,22 @@ body{
     height: 200px;
     overflow: hidden;
   }
+
+  >nav{
+    height: 30px;
+    @include bgc(#a2347f);
+    a {
+      text-decoration: none;
+      line-height: 30px;
+      color: $color;
+      padding: 5px;
+    }
+    a:hover{
+      font-size: 18px;
+      color: mix($color, green)
+    }
+  }
+
   >.content{
     min-height: 300px;
     @include bgc(#fff);
@@ -32,6 +50,7 @@ body{
       min-height: 300px;
       border: 1px solid red;
       box-sizing: border-box;
+      @include bgc(#ccc);
     }
 
     >.main{
@@ -41,10 +60,16 @@ body{
     >.left{
       width: 150px;
       @include mxc;
+      position: relative;
+      margin-left: -100%;
+      left: -150px;
     }
     >.right{
       width: 150px;
       @include mxc;
+      margin-left: -150px;
+      position: relative;
+      left: 150px;
     }
   }
   >.content::after{
