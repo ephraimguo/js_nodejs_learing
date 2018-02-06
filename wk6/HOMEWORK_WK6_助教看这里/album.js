@@ -1,19 +1,37 @@
 window.onload = function () {
-    const oAlbumList = document.querySelector('.album-list');
-    const aAlbum = document.querySelectorAll(".album");
-    const oBtnAlbumList = document.querySelectorAll(".album>button");
+    const oAlbumList = document.getElementsByClassName('album-list')[0];
+    let aAlbum = document.querySelectorAll(".album");
+    let oBtnAlbumList = document.querySelectorAll(".album>button");
+    const oBtnCreate = document.querySelector('.button-grp>form>input[type=button]');
 
-    for(let i=0; i<aAlbum.length; i++){
-        aAlbum[i].style.borderBottom= '#ccc solid 1px';
-        // console.log(aAlbum[i].style.border);
-        if(i == aAlbum.length-1){
-            aAlbum[i].style.borderBottom = '';
+    function listBroder(){
+        aAlbum = document.querySelectorAll(".album");
+        for(let i=0; i<aAlbum.length; i++){
+            aAlbum[i].style.borderTop= '#ccc solid 1px';
+            if(i == 0){
+                aAlbum[i].style.borderTop = '';
+            }
         }
     }
+    listBroder()
 
-    for(let i=0; i<oBtnAlbumList.length; i++){
-        oBtnAlbumList[i].onclick = function(){
-            oAlbumList.removeChild(aAlbum[i]);
+    function del() {
+        oBtnAlbumList = document.querySelectorAll(".album>button");
+        aAlbum = document.querySelectorAll(".album");
+
+        for (let i = 0; i < oBtnAlbumList.length; i++) {
+            oBtnAlbumList[i].onclick = function () {
+                oAlbumList.removeChild(aAlbum[i]);
+            };
         }
+    }
+    del();
+
+    oBtnCreate.onclick = function (){
+        let name = prompt('Name of Album');
+        let str = '<li class="album"><a class=\'album-link\' href="">'+name+'</a><button>X</button></li>';
+        oAlbumList.insertAdjacentHTML('beforeEnd', str);
+        del();
+        listBroder();
     }
 };
