@@ -109,14 +109,52 @@ header h4{
 }
 /*create and add button end*/
 
-
+/*photolist start*/
 .photo-list{
-    height: 250px;
+    min-height: 250px;
     background-color: #eee;
-    display: flex;
-    flex-wrap: wrap;
 }
 
+.photo{
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.photo>img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.photo>button{
+    padding: 5px 5px;
+    background-color: #fff;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
+.photo>button:hover{
+    background-color: #eee;
+    opacity: 0.9;
+}
+.photo-list::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+
+
+/*photolist end*/
 /*pagination start*/
 .display nav ul{
     border: #ccc solid 1px;

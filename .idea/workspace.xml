@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" />
-      <change beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" />
-      <change beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/bird.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/ss.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +20,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="homeworkAlbum.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="985">
+                  <caret line="66" column="36" lean-forward="false" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="album.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="625">
+                  <caret line="149" column="19" lean-forward="true" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="album.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,15 +151,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/wk1/lesson05/node_modules" />
-    <handled-path value="$PROJECT_DIR$/wk6/Sass/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
+    <option name="x" value="464" />
     <option name="y" value="22" />
-    <option name="width" value="1614" />
-    <option name="height" value="976" />
+    <option name="width" value="1821" />
+    <option name="height" value="1362" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,30 +187,7 @@
             <path>
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="Promise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk5" type="462c0819:PsiDirectoryNode" />
-              <item name="fileReader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
@@ -182,18 +200,10 @@
               <item name="wk6" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK6_助教看这里" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
-              <item name="wk6" type="462c0819:PsiDirectoryNode" />
-              <item name="Sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,13 +227,6 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wk6/Sass/sass" />
-      <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
-      <recent name="$PROJECT_DIR$/wk5/backgroundPlay" />
-      <recent name="$PROJECT_DIR$/wk5/flex_cal" />
-      <recent name="$PROJECT_DIR$/wk5/flexlayout" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
       <recent name="$PROJECT_DIR$/wk5/flexlayout" />
@@ -231,6 +234,126 @@
       <recent name="$PROJECT_DIR$/wk5/layout_practise" />
       <recent name="$PROJECT_DIR$/wk5/layout" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里" />
+      <recent name="$PROJECT_DIR$/wk6/Sass/sass" />
+      <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
+      <recent name="$PROJECT_DIR$/wk5/backgroundPlay" />
+      <recent name="$PROJECT_DIR$/wk5/flex_cal" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,12 +368,26 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.demo3.js">
-    <configuration default="true" type="JavaScriptNodeJsTraceType" factoryName="Spy-js for Node.js" config="" node="/usr/local/bin/node" node-params="" app="" app-params="" working-dir="$PROJECT_DIR$" proxy-port="3547" pass-parent-env="true" limits="1,3,3,50">
+    <configuration name="4Async_sleep.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="4Async_sleep.js" working-dir="$PROJECT_DIR$/wk3/homework" />
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" value="" />
+      <option name="filePath" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="/usr/local/bin/node" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
       <node-interpreter value="/usr/local/bin/node" />
-      <node-options value="" />
       <working-dir value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -260,18 +397,19 @@
       <node-interpreter value="/usr/local/bin/node" />
       <envs />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="/usr/local/bin/node" />
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
       <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
     </configuration>
-    <configuration default="true" type="JavaScriptTraceType" factoryName="Spy-js" node="/usr/local/bin/node" config="" has-config="false" system-proxy="true" proxy-port="3546" open-browser="false" browser="" limits="1,3,3,50" />
-    <configuration name="4Async_sleep.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="4Async_sleep.js" working-dir="$PROJECT_DIR$/wk3/homework" />
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" />
-    <configuration name="async_es7.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="async_es7.js" working-dir="$PROJECT_DIR$/wk3/z-Await" />
-    <configuration name="demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="demo1.js" working-dir="$PROJECT_DIR$/wk3/Promise" />
-    <configuration name="demo3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="demo3.js" working-dir="$PROJECT_DIR$/wk3/Promise" />
-    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" working-dir="" />
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="/usr/local/bin/node" />
       <envs />
@@ -290,12 +428,21 @@
       <option name="hasTarget" value="false" />
       <option name="target" value="" />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="/usr/local/bin/node" />
+      <envs />
+    </configuration>
     <configuration default="true" type="ReactNative" factoryName="React Native">
       <node-interpreter value="/usr/local/bin/node" />
       <react-native value="" />
       <platform value="ANDROID" />
       <envs />
     </configuration>
+    <configuration default="true" type="JavaScriptNodeJsTraceType" factoryName="Spy-js for Node.js" config="" node="/usr/local/bin/node" node-params="" app="" app-params="" working-dir="$PROJECT_DIR$" proxy-port="3547" pass-parent-env="true" limits="1,3,3,50">
+      <envs />
+    </configuration>
+    <configuration default="true" type="JavaScriptTraceType" factoryName="Spy-js" node="/usr/local/bin/node" config="" has-config="false" system-proxy="true" proxy-port="3546" open-browser="false" browser="" limits="1,3,3,50" />
     <configuration default="true" type="XSLT" factoryName="XSLT">
       <option name="myOutputFile" value="" />
       <option name="myOpenOutputFile" value="false" />
@@ -311,42 +458,16 @@
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="myFilePath" />
-      <option name="myNameFilter" />
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" value="" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
-      <node-interpreter value="/usr/local/bin/node" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>/usr/local/bin/node</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
       <node-interpreter value="/usr/local/bin/node" />
       <envs />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>/usr/local/bin/node</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-    </configuration>
+    <configuration name="async_es7.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="async_es7.js" working-dir="$PROJECT_DIR$/wk3/z-Await" />
+    <configuration name="demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="demo1.js" working-dir="$PROJECT_DIR$/wk3/Promise" />
+    <configuration name="demo3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="demo3.js" working-dir="$PROJECT_DIR$/wk3/Promise" />
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.demo3.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.demo1.js" />
@@ -574,7 +695,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191957000" />
+    <option name="totallyTimeSpent" value="194143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,27 +707,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="22" width="1614" height="976" extended-state="0" />
+    <frame x="464" y="22" width="1821" height="1362" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20464532" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17277777" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.4957529" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33371168" sideWeight="0.49439776" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3346488" sideWeight="0.49439776" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21376085" sideWeight="0.50760454" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.4957529" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33371168" sideWeight="0.49439776" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20464532" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -898,27 +1029,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,15 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-426">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,6 +1068,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="985">
+          <caret line="66" column="36" lean-forward="false" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="149" column="19" lean-forward="true" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -1,8 +1,11 @@
 window.onload = function () {
-    const oAlbumList = document.getElementsByClassName('album-list')[0];
+    let oAlbumList = document.getElementsByClassName('album-list')[0];
     let aAlbum = document.querySelectorAll(".album");
     let oBtnAlbumList = document.querySelectorAll(".album>button");
-    const oBtnCreate = document.querySelector('.button-grp>form>input[type=button]');
+    let oBtnCreate = document.querySelector('.button-grp>form>input[type=button]');
+    let oBtnDelPh = document.querySelectorAll('.photo>button');
+    let aPhoto = document.querySelectorAll('.photo');
+    let oPhotoList = document.querySelector('.photo-list');
 
     function listBroder(){
         aAlbum = document.querySelectorAll(".album");
@@ -13,7 +16,7 @@ window.onload = function () {
             }
         }
     }
-    listBroder()
+    listBroder();
 
     function del() {
         oBtnAlbumList = document.querySelectorAll(".album>button");
@@ -33,5 +36,18 @@ window.onload = function () {
         oAlbumList.insertAdjacentHTML('beforeEnd', str);
         del();
         listBroder();
+    };
+
+
+    function addEvenDelPh(){
+        oBtnDelPh = document.querySelectorAll('.photo>button');
+        aPhoto = document.querySelectorAll('.photo');
+        for(let i=0; i<aPhoto.length; i++){
+            oBtnDelPh[i].onclick = function () {
+                oPhotoList.removeChild(aPhoto[i]);
+            }
+        }
     }
+    addEvenDelPh();
+
 };
