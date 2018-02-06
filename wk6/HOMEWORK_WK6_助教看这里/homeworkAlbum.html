@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Album</title>
     <link rel="stylesheet" href="album.css">
+    <script src="album.js"></script>
 </head>
 <body>
 <div class="container">
@@ -17,21 +18,38 @@
 
     <div class="content">
         <div class="box left">
-            <div class="default album">
-                <p><span class="album-name">Default Album</span><span class="del">X</span></p>
-            </div>
-            <div class="default album"></div>
-            <div class="default album"></div>
+            <ul class="album-list">
+                <li class="album">
+                    <a class='album-link' href="">Default</a>
+                    <button>X</button>
+                </li>
+            </ul>
+
 
         </div>
         <div class="box display">
+            <div class="button-grp">
+                <form action="">
+                    <input type="button" value="+ Create New Album">
+                    <label for="add">+Add Photo</label>
+                    <input id='add' type="file" >
+                </form>
+
+            </div>
+
+            <div class="photo-list">
+
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">First</a></li>
+                    <li><a href="">Last</a></li>
+                </ul>
+            </nav>
 
         </div>
 
-        <!--<ul class="breadcrumb">-->
-            <!--<li><a href="">first</a></li>-->
-            <!--<li><a href="">last</a></li>-->
-        <!--</ul>-->
 
     </div>
 
