@@ -5,15 +5,21 @@
     <title>test</title>
     <script>
         window.onload = function () {
-            var arr = [0,1,2,3,4,5];
-            arr.splice(1,2);
-            alert(arr);
+            let a = '<div style="width:100px;height:100px;border:1px solid red;"></div>>';
+            let div1 = document.getElementsByClassName('test')[0];
+            let xxx = div1.cloneNode(true);
+            div1.insertBefore(xxx, div1.lastChild);
         }
     </script>
 </head>
 <body>
 <nav></nav>
-<div class="test">0</div>
+<div class="test">0
+    <div>sadfas</div>
+    <div>sadfasasdfsafa</div>
+    <div>sadfasasdfsafa</div>
+    <div>sadfasasdfsafa</div>
+</div>
 <div class="test">1</div>
 <div class="test">2</div>
 <div class="test">3</div>

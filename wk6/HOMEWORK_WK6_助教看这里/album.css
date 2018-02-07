@@ -112,9 +112,13 @@ header h4{
 /*create and add button end*/
 
 /*photolist start*/
-.photo-list{
+.wrapper>div{
     min-height: 250px;
     background-color: #eee;
+    display: none;
+}
+
+div.show{
     display: block;
 }
 

@@ -21,25 +21,25 @@ window.onload = function () {
     let aPhoto = document.querySelectorAll('.photo');
 
     //obtain photo list, container of photos, right side main part
-    let oPhotoList = document.querySelector('.photo-list');
+    let oPhotoList = document.querySelectorAll('.photo-list');
+
+    //obtain right panel
+    let wrapper = document.querySelector('.wrapper');
 
     //obtain input file button.
     let fileInput = document.querySelector('#add-file');
 
-    //photo Array
+    //current photolist status
+    let currentPhListStatus = null;
+
+    //Album Array
     let arrPh = [];
+    let arrAlb = [];
 
-
-    //iterate first cycle for adding the arr for those album alr exist.
-    for(let i=0; i<aAlbum.length; i++){
-        var arr = [];
-        arrPh.push(arr);
-        // alert(arrPh.length);
-    }
 
 
     //function to add proper border to Album list, left side
-    function listBroder(){
+    function listBorder(){
         aAlbum = document.querySelectorAll(".album");
         for(let i=0; i<aAlbum.length; i++){
             aAlbum[i].style.borderTop= '#ccc solid 1px';
@@ -48,7 +48,7 @@ window.onload = function () {
             }
         }
     }
-    listBroder(); // adding proper border function called
+    listBorder(); // adding proper border function called
 
     //function of del the album from album list left side.
     function del() {
@@ -60,8 +60,6 @@ window.onload = function () {
         for (let i = 0; i < oBtnAlbumList.length; i++) {
             oBtnAlbumList[i].onclick = function () {
                 oAlbumList.removeChild(aAlbum[i]);
-                arrPh.splice(i,1);
-                // alert(arrPh.length);
             };
         }
     }
@@ -71,12 +69,14 @@ window.onload = function () {
     oBtnCreate.onclick = function (){
         let name = prompt('Name of Album');
         if(name!=null) {
-            var arr = [];
-            arrPh.push(arr);
-            let str = '<li class="album"><a class=\'album-link\' href="">' + name + '</a><button>X</button></li>';
-            oAlbumList.insertAdjacentHTML('beforeEnd', str);
+            let albumListOp = '<li class="album"> <a class="album-link" href="">'+name+'</a><button>X</button></li>';
+            let phListDiv = '<div class="photo-list"><div class="photo"><button>X</button><img src="bird.jpeg" alt=""></div></div>';
+
+            oAlbumList.insertAdjacentHTML('beforeEnd', albumListOp);
+            wrapper.insertAdjacentHTML('beforeEnd', phListDiv);
             del(); // re-call del function to add event on the buttons, due to new element added
-            listBroder(); // re-call adding border function to the album list, due to new element added
+            listBorder(); // re-call adding border function to the album list, due to new element added
+            addDisplay();
         }
     };
 
@@ -94,6 +94,7 @@ window.onload = function () {
     }
     addEvenDelPh(); //del photo function called
 
+    //upload new photo
     fileInput.addEventListener('change', function(){
        const file = fileInput.files[0];
        const fileReader = new FileReader();
@@ -107,5 +108,23 @@ window.onload = function () {
        };
        fileReader.readAsDataURL(file);
     });
+
+    // add display function to album list options
+    function addDisplay(){
+        aLinkAlbum = document.querySelectorAll('.album-link');
+        oPhotoList = document.querySelectorAll('.photo-list');
+        aLinkAlbum.forEach((link, index)=>{
+            link.index = index;
+            link.addEventListener('click', function(event){
+                const index =  event.target.index;
+                if(currentPhListStatus)
+                currentPhListStatus.className = 'photo-list';
+                currentPhListStatus = oPhotoList[index];
+                currentPhListStatus.className = 'photo-list show';
+                alert(index);
+            });
+        });
+    }
+    addDisplay();
 
 };

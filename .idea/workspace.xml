@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/p.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
+      <change beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
       <change beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" />
       <change beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" />
       <change beforePath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" afterPath="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" />
@@ -21,24 +19,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45856354">
+    <splitter split-orientation="horizontal" split-proportion="0.4261065">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file leaf-file-name="homeworkAlbum.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fileReader.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wk5/fileReader/fileReader.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+                <state relative-caret-position="8">
+                  <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -51,11 +39,9 @@
           <file leaf-file-name="album.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1470">
-                  <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#1400#1659#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="489">
+                  <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="126" selection-end-column="5" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -63,8 +49,8 @@
           <file leaf-file-name="album.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+                <state relative-caret-position="714">
+                  <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -147,8 +133,8 @@
         <option value="$PROJECT_DIR$/wk5/fileReader/fileReader.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html" />
-        <option value="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" />
         <option value="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css" />
+        <option value="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js" />
       </list>
     </option>
   </component>
@@ -168,7 +154,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/wk1/lesson05/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="33" />
     <option name="y" value="22" />
     <option name="width" value="1614" />
@@ -1384,11 +1370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517886387318</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="pending to add mutiple album options">
+      <created>1517986961913</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1517986961913</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205420000" />
+    <option name="totallyTimeSpent" value="212443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1400,10 +1393,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="22" width="1614" height="976" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20464532" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19650392" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
@@ -1504,7 +1498,8 @@
     <MESSAGE value="wk6 start" />
     <MESSAGE value="hm editted" />
     <MESSAGE value="wk6 homework halfway" />
-    <option name="LAST_COMMIT_MESSAGE" value="wk6 homework halfway" />
+    <MESSAGE value="pending to add mutiple album options" />
+    <option name="LAST_COMMIT_MESSAGE" value="pending to add mutiple album options" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1763,34 +1758,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
-            <element signature="e#1400#1659#0" expanded="false" />
+            <marker date="1517989132112" expanded="true" signature="175:221" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/homeworkAlbum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="8">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="189" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里/album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="126" selection-end-column="5" />
           <folding />
         </state>
       </provider>
