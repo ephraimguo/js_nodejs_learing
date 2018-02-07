@@ -1,0 +1,9 @@
+nav {
+  height: 30px;
+  background-color: #ccc; }
+  nav a {
+    text-decoration: none;
+    line-height: 30px; }
+    nav a:hover {
+      font-size: 20px;
+      color: #333; }

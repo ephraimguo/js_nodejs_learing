@@ -1,0 +1,16 @@
+.btn1 {
+  width: 300px;
+  min-height: 300px;
+  border: 1px solid red;
+  background-color: #affaaf; }
+
+.btn2 {
+  width: 300px;
+  min-height: 300px;
+  border: 1px solid red;
+  background-color: #00B7FF; }
+
+.btn3 {
+  attr_3: 32px;
+  attr_1: 123;
+  attr_2: "black"; }

@@ -7,6 +7,7 @@
 
 .container{
     min-height: 300px;
+    min-width: 918px;
     background-color: #fff;
     margin: 10px 20px;
 }
@@ -57,6 +58,7 @@ header h4{
     padding: 0 25px;
     color: #2c70dd;
     font-size: 15px;
+    cursor: pointer;
 }
 .album>button{
     float: right;
@@ -113,6 +115,7 @@ header h4{
 .photo-list{
     min-height: 250px;
     background-color: #eee;
+    display: block;
 }
 
 .photo{

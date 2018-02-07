@@ -1,0 +1,15 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  min-height: 500px; }
+  .container > nav {
+    height: 30px;
+    background-color: #666;
+    margin: 10px 0; }
+  .container .content {
+    height: 100px;
+    background-color: #666; }
+  .container > footer {
+    height: 50px;
+    background-color: #666;
+    margin: 10px 0; }

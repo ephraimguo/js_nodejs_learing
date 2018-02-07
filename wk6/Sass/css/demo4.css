@@ -1,0 +1,17 @@
+.container .main {
+  float: left;
+  width: 70%;
+  background-color: #444444;
+  min-height: 200px; }
+  @media (max-width: 450px) {
+    .container .main {
+      float: none; } }
+
+.container .left {
+  float: left;
+  width: 30%;
+  background-color: #ccc;
+  min-height: 200px; }
+  @media (max-width: 450px) {
+    .container .left {
+      float: none; } }

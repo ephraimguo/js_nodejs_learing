@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2658a8; }
+
+.container {
+  min-height: 500px;
+  background-color: #13acd4;
+  padding: 0 150px 0 150px; }
+  .container > header {
+    background-color: #0a9cb0;
+    height: 200px;
+    overflow: hidden; }
+  .container > .content {
+    min-height: 300px;
+    background-color: #85ced8; }
+    .container > .content > .main {
+      width: 100%;
+      float: left;
+      min-height: 300px;
+      border: 1px solid red;
+      box-sizing: border-box; }
+    .container > .content > .left {
+      width: 150px;
+      float: left;
+      min-height: 300px;
+      border: 1px solid red;
+      box-sizing: border-box; }
+    .container > .content > .right {
+      width: 150px;
+      float: left;
+      min-height: 300px;
+      border: 1px solid red;
+      box-sizing: border-box; }
+  .container > .content::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container > footer {
+    background-color: #769a9f;
+    min-height: 50px; }

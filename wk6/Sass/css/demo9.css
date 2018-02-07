@@ -1,0 +1,45 @@
+.abc {
+  color: red; }
+
+div:nth-child(1) {
+  background-color: #affaaf;
+  min-height: 100px;
+  margin: 5px 0; }
+
+div:nth-child(2) {
+  background-color: #affaaf;
+  min-height: 100px;
+  margin: 5px 0; }
+
+div:nth-child(3) {
+  background-color: #affaaf;
+  min-height: 100px;
+  margin: 5px 0; }
+
+div:nth-child(4) {
+  background-color: #affaaf;
+  min-height: 100px;
+  margin: 5px 0; }
+
+div:nth-child(5) {
+  background-color: #affaaf;
+  min-height: 100px;
+  margin: 5px 0; }
+
+.red {
+  background: red; }
+
+.green {
+  background: green; }
+
+.blue {
+  background: blue; }
+
+.yellow {
+  background: yellow; }
+
+.black {
+  background: black; }
+
+.cyan {
+  background: cyan; }

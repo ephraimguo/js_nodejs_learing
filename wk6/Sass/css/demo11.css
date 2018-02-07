@@ -1,0 +1,8 @@
+.button, .btn-red {
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  border: 1px solid red; }
+
+.red, .btn-red {
+  background: #ff0000; }
