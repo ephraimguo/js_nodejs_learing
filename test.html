@@ -5,10 +5,10 @@
     <title>test</title>
     <script>
         window.onload = function () {
-            let a = '<div style="width:100px;height:100px;border:1px solid red;"></div>>';
+            let a = '<div style="width:100px;height:100px;border:1px solid red;"></div>';
             let div1 = document.getElementsByClassName('test')[0];
             let xxx = div1.cloneNode(true);
-            div1.insertBefore(xxx, div1.lastChild);
+            div1.insertBefore(a, div1.lastChild);
         }
     </script>
 </head>
