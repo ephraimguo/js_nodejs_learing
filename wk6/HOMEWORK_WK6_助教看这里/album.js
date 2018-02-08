@@ -14,14 +14,19 @@ window.onload = function () {
     //obtain create new Album button, right side top
     let oBtnCreate = document.querySelector('.button-grp>form>input[type=button]');
 
-    //obtain del photo button, right side, on photo right top
-    let oBtnDelPh = document.querySelectorAll('.photo>button');
+    //obtain wrapper object performing as container of photoList
+    let oWrapper = document.querySelector('.wrapper');
 
-    //obtain photo object, right side
-    let aPhoto = document.querySelectorAll('.photo');
+    //obtain del photo button, right side, on photo right top
+    let aBtnDelPh = document.querySelectorAll('.photo>button');
+
+    //obtain photos
 
     //obtain photo list, container of photos, right side main part
-    let oPhotoList = document.querySelectorAll('.photo-list');
+    let aPhotoList = document.querySelectorAll('.photo-list');
+
+    //obtain photo object, right side
+    // let aPhoto = document.querySelectorAll('.photo');
 
     //obtain right panel
     let wrapper = document.querySelector('.wrapper');
@@ -29,7 +34,6 @@ window.onload = function () {
     //obtain input file button.
     let fileInput = document.querySelector('#add-file');
 
-    //current photolist status
     let currentPhListStatus = null;
 
     //Album Array
@@ -37,94 +41,107 @@ window.onload = function () {
     let arrAlb = [];
 
 
+    aPhotoList.forEach(phList=>{
+        arrAlb.push(phList);                 // add the photoList to arrPlb
+    });
 
-    //function to add proper border to Album list, left side
-    function listBorder(){
-        aAlbum = document.querySelectorAll(".album");
-        for(let i=0; i<aAlbum.length; i++){
-            aAlbum[i].style.borderTop= '#ccc solid 1px';
-            if(i === 0){
-                aAlbum[i].style.borderTop = '';
+
+    // add display function to album list options
+    function addDisplay(){
+        aLinkAlbum = document.querySelectorAll('.album-link'); // re-obtain a tag in list from left side
+        aPhotoList = document.querySelectorAll('.photo-list'); // re-obtain photoList for display right side
+        aLinkAlbum.forEach((link, index)=>{                    // adding evnet to add 'show' class name to display photoList by forEach
+            link.index = index;
+            link.onclick =  function(event){
+                const index =  event.target.index;
+                aPhotoList.forEach(ph=>{ph.className='photo-list'});
+                aPhotoList[index].className = 'photo-list show';
+                // alert(arrAlb[index].innerHTML);
             }
-        }
+        });
     }
-    listBorder(); // adding proper border function called
+    addDisplay();// adding display the photo panel function called
 
-    //function of del the album from album list left side.
-    function del() {
-        // re-obtain all the del button left side
-        oBtnAlbumList = document.querySelectorAll(".album>button");
-        // re-obtain all the albums left side
-        aAlbum = document.querySelectorAll(".album");
-        // add onclick event to del buttons
-        for (let i = 0; i < oBtnAlbumList.length; i++) {
+
+    //function of del the album from album list both left and right
+    function delAlbum() {
+        oBtnAlbumList = document.querySelectorAll(".album>button");     // re-obtain all the del button left side
+        aAlbum = document.querySelectorAll(".album");                   // re-obtain all the albums left side
+        aPhotoList = document.querySelectorAll('.photo-list');          // re-obtain photoList for display right side
+        oWrapper = document.querySelector('.wrapper');
+        for (let i = 0; i < oBtnAlbumList.length; i++) {                 // add onclick event to del buttons
             oBtnAlbumList[i].onclick = function () {
                 oAlbumList.removeChild(aAlbum[i]);
+                oWrapper.removeChild(aPhotoList[i]);
+                arrAlb.splice(i,1);
+                // alert(arrAlb.length);
             };
         }
     }
-    del(); // del function called
+    delAlbum(); // delAlbum function called
 
     //creating button function binded
     oBtnCreate.onclick = function (){
         let name = prompt('Name of Album');
-        if(name!=null) {
-            let albumListOp = '<li class="album"> <a class="album-link" href="">'+name+'</a><button>X</button></li>';
-            let phListDiv = '<div class="photo-list"><div class="photo"><button>X</button><img src="bird.jpeg" alt=""></div></div>';
-
+        aPhotoList = document.querySelectorAll('.photo-list');
+        if(name!=null && name!='') {
+            let albumListOp = '<li class="album"> <a class="album-link">'+name+'</a><button>X</button></li>';
+            let phListDiv = '<div class="photo-list"></div>';
             oAlbumList.insertAdjacentHTML('beforeEnd', albumListOp);
             wrapper.insertAdjacentHTML('beforeEnd', phListDiv);
-            del(); // re-call del function to add event on the buttons, due to new element added
-            listBorder(); // re-call adding border function to the album list, due to new element added
-            addDisplay();
+            delAlbum(); // re-call del function to add event on the buttons, due to new element added
         }
+
+        addEvenDelPh();
+        arrAlb.push(wrapper.lastChild);
+        addDisplay();
     };
+
+
+    //upload new photo
+    fileInput.addEventListener('change', function(){
+        let file = fileInput.files[0];
+        let fileReader = new FileReader();
+        fileReader.onload = function(){
+            let img = new Image();
+            fileReader.result;
+            img.src = fileReader.result;
+            let elePh = '<div class="photo"><button>X</button>'+img.outerHTML+'</div>';
+            aPhotoList = document.querySelectorAll('.photo-list');
+            aPhotoList.forEach(phList=>{
+                if(phList.className === 'photo-list show'){
+                    phList.insertAdjacentHTML('beforeEnd', elePh);
+                    const btn = phList.querySelectorAll('.photo>button');
+                    const latestPic = phList.querySelector('.photo:last-child');
+                    btn[btn.length-1].onclick = function(){
+                        phList.removeChild(latestPic);
+                    }
+                }
+            });
+        };
+        fileReader.readAsDataURL(file);
+    });
 
 
     // add del photo function to all the del button at photo
     function addEvenDelPh(){
-        oBtnDelPh = document.querySelectorAll('.photo>button');
-        aPhoto = document.querySelectorAll('.photo');
-        oPhotoList = document.querySelector('.photo-list');
-        for(let i=0; i<aPhoto.length; i++){
-            oBtnDelPh[i].onclick = function() {
-                oPhotoList.removeChild(aPhoto[i]);
-            }
-        }
-    }
-    addEvenDelPh(); //del photo function called
-
-    //upload new photo
-    fileInput.addEventListener('change', function(){
-       const file = fileInput.files[0];
-       const fileReader = new FileReader();
-       fileReader.onload = function(){
-           const img = new Image();
-           fileReader.result;
-           img.src = fileReader.result;
-           let elePh = '<div class="photo"><button>X</button>'+img.outerHTML+'</div>';
-           oPhotoList.insertAdjacentHTML('beforeEnd', elePh);
-           addEvenDelPh();
-       };
-       fileReader.readAsDataURL(file);
-    });
-
-    // add display function to album list options
-    function addDisplay(){
-        aLinkAlbum = document.querySelectorAll('.album-link');
-        oPhotoList = document.querySelectorAll('.photo-list');
-        aLinkAlbum.forEach((link, index)=>{
-            link.index = index;
-            link.addEventListener('click', function(event){
-                const index =  event.target.index;
-                if(currentPhListStatus)
-                currentPhListStatus.className = 'photo-list';
-                currentPhListStatus = oPhotoList[index];
-                currentPhListStatus.className = 'photo-list show';
-                alert(index);
+        aPhotoList = document.querySelectorAll('.photo-list');
+        aPhotoList.forEach((phList, index)=>{
+            phList.index = index;
+            const delPhBtn = phList.querySelectorAll('.photo>button');
+            const aPhotoPhList = phList.querySelectorAll('.photo');
+            delPhBtn.forEach((btn, i)=>{
+                btn.index = i;
+                btn.onclick = function(){
+                    phList.removeChild(aPhotoPhList[btn.index]);
+                }
             });
         });
     }
-    addDisplay();
-
+    addEvenDelPh();
 };
+
+
+
+
+

@@ -52,6 +52,10 @@ header h4{
 .album{
     height: 40px;
     box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.album:last-child{
+    border: none;
 }
 .album-link{
     line-height: 40px;
