@@ -34,7 +34,9 @@ window.onload = function () {
     //obtain input file button.
     let fileInput = document.querySelector('#add-file');
 
-    let currentPhListStatus = null;
+    let oNav = document.querySelector('nav');
+    let aNavUl = document.querySelector('nav>ul');
+    let aPageBtn = document.querySelector('nav>ul>li');
 
     //Album Array
     let arrPh = [];
@@ -46,18 +48,57 @@ window.onload = function () {
     });
 
 
+    function addPagination(){
+        oNav = document.querySelector('nav');
+        aPhotoList = document.querySelectorAll('.photo-list');
+        aPhotoList.forEach((phL,index)=>{
+            phL.index = index;
+            let length = phL.children.length;
+            let pageNav;
+            let html = '';
+            for(let i=1; i<=length/10+1; i++){
+                html += '<li><a>'+i+'</a></li>';
+            }
+            pageNav = '<ul><li><a>First</a></li>'+html+'<li><a>Last</a></li></ul>';
+            if(oNav[index]){
+                oNav[index].innerHTML = pageNav;
+
+            }else{
+                oNav.insertAdjacentHTML('beforeEnd', pageNav);
+
+            }
+        });
+
+    }
+    addPagination();
+    oNav.querySelectorAll('ul')[0].className = 'show';
+
+
+
     // add display function to album list options
     function addDisplay(){
         aLinkAlbum = document.querySelectorAll('.album-link'); // re-obtain a tag in list from left side
         aPhotoList = document.querySelectorAll('.photo-list'); // re-obtain photoList for display right side
+        aAlbum = document.querySelectorAll('.album');
+        aNavUl = document.querySelectorAll('nav>ul');
         aLinkAlbum.forEach((link, index)=>{                    // adding evnet to add 'show' class name to display photoList by forEach
             link.index = index;
             link.onclick =  function(event){
                 const index =  event.target.index;
-                aPhotoList.forEach(ph=>{ph.className='photo-list'});
+                aPhotoList.forEach(phL=>{phL.className='photo-list';});
+                aAlbum.forEach(al=>{al.className = 'album'});
+                aNavUl.forEach(ul=>{ul.className = ''});
                 aPhotoList[index].className = 'photo-list show';
+                aAlbum[index].className = 'album show';
+                aNavUl[index].className = 'show';
                 // alert(arrAlb[index].innerHTML);
-            }
+            };
+            // aPhotoList.forEach(phL=>{
+            //     let length = phL.children.length;
+            //     let pageNav;
+            //     let html;
+            // });
+
         });
     }
     addDisplay();// adding display the photo panel function called
@@ -94,6 +135,9 @@ window.onload = function () {
 
         addEvenDelPh();
         arrAlb.push(wrapper.lastChild);
+        arrAlb.forEach(al=> {
+            console.log(al);
+        });
         addDisplay();
     };
 
@@ -101,6 +145,7 @@ window.onload = function () {
     //upload new photo
     fileInput.addEventListener('change', function(){
         let file = fileInput.files[0];
+        fileInput.value = '';
         let fileReader = new FileReader();
         fileReader.onload = function(){
             let img = new Image();
@@ -113,11 +158,14 @@ window.onload = function () {
                     phList.insertAdjacentHTML('beforeEnd', elePh);
                     const btn = phList.querySelectorAll('.photo>button');
                     const latestPic = phList.querySelector('.photo:last-child');
+                    addPagination();
                     btn[btn.length-1].onclick = function(){
                         phList.removeChild(latestPic);
-                    }
+                    };
+                    oNav.querySelectorAll('ul')[phList.index].className = 'show';
                 }
             });
+            // addPagination();
         };
         fileReader.readAsDataURL(file);
     });
