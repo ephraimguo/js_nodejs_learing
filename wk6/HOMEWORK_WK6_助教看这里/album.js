@@ -59,8 +59,10 @@ window.onload = function () {
             for(let i = 1; i<=(aPhoto.length-1)/5+1; i++){
                 listHtml += '<li><a>'+i+'</a></li>';
             }
-            ulHtml = '<ul><li><a>First</a></li>'+listHtml+'<li><a>Last</a></li></ul>';
+            // ulHtml = '<ul><li><a>First</a></li>'+listHtml+'<li><a>Last</a></li></ul>';
+            ulHtml = '<ul>'+listHtml+'</ul>';
             oNav.insertAdjacentHTML('beforeEnd', ulHtml);
+
         });
         aNavUl = document.querySelectorAll('nav>ul');
         if(aNavUl[photoListIndex]!=undefined){
@@ -71,7 +73,6 @@ window.onload = function () {
         }
     }
     addPagination(0);
-    // oNav.querySelectorAll('ul')[0].className = 'show';
 
 
 
@@ -81,7 +82,7 @@ window.onload = function () {
         aPhotoList = document.querySelectorAll('.photo-list'); // re-obtain photoList for display right side
         aAlbum = document.querySelectorAll('.album');
         aNavUl = document.querySelectorAll('nav>ul');
-        aLinkAlbum.forEach((link, index)=>{                    // adding evnet to add 'show' class name to display photoList by forEach
+        aLinkAlbum.forEach((link, index)=>{                    // adding event to add 'show' class name to display photoList by forEach
             link.index = index;
             link.onclick =  function(event){
                 const index =  event.target.index;
@@ -96,6 +97,31 @@ window.onload = function () {
         });
     }
     addDisplay();// adding display the photo panel function called
+
+    //page directing function for page btn
+    function pageBtnFunc(){
+        let sNavUl = document.querySelectorAll('.display>nav>ul[class=show]')[0];
+        let aPageBtn = sNavUl.querySelectorAll('li>a');
+        let sPhotoList = document.querySelector('.wrapper>[class*=show]');
+        let sPhoto = sPhotoList.querySelectorAll('.photo');
+        // let phHtml = '';
+        // for(let i=0; i<5; i++){
+        //     phHtml += sPhoto[i].outerHTML;
+        // }
+        // sPhotoList.innerHTML = phHtml;
+        aPageBtn.forEach(pBtn=>{
+            pBtn.onclick = function(){
+                alert(pBtn.index);
+                let phHtml2 = '';
+                for(let i=(pBtn.index)*5; i<(pBtn.index+1)*5; i++){
+                    sPhoto[i].style.display = 'inline-block';
+                }
+                // console.log(phHtml2);
+                sPhotoList.innerHTML = phHtml2;
+            };
+        });
+    }
+    pageBtnFunc();
 
 
     //function of del the album from album list both left and right
@@ -116,19 +142,10 @@ window.onload = function () {
                 oNav.removeChild(aNavUl[i]);
             }
         });
-
-        // for (let i = 0; i < oBtnAlbumList.length; i++) {                 // add onclick event to del buttons
-        //     oBtnAlbumList[i].onclick = function () {
-        //         oAlbumList.removeChild(aAlbum[i]);
-        //         oWrapper.removeChild(aPhotoList[i]);
-        //         arrAlb.splice(i,1);
-        //
-        //     };
-        // }
     }
     delAlbum(); // delAlbum function called
 
-    //creating new album button function binded
+    //creating new album button
     oBtnCreate.onclick = function (){
         let name = prompt('Name of Album');
         aPhotoList = document.querySelectorAll('.photo-list');
@@ -154,6 +171,7 @@ window.onload = function () {
         // aNavUl.forEach(ul=>{ul.className = ''});
         aPhotoList[aNavUl.length-1].className = 'photo-list show';
         aAlbum[aNavUl.length-1].className = 'album show';
+        pageBtnFunc();
     };
 
 
@@ -183,6 +201,7 @@ window.onload = function () {
         };
         fileReader.readAsDataURL(file);
         addEvenDelPh();
+        pageBtnFunc();
     });
 
 
@@ -204,6 +223,7 @@ window.onload = function () {
 
     }
     addEvenDelPh();
+    pageBtnFunc();
 };
 
 

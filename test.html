@@ -5,10 +5,10 @@
     <title>test</title>
     <script>
         window.onload = function () {
-            let a = '<div style="width:100px;height:100px;border:1px solid red;"></div>';
-            let div1 = document.getElementsByClassName('test')[0];
-            let xxx = div1.cloneNode(true);
-            div1.insertBefore(a, div1.lastChild);
+            var show = document.querySelectorAll('.test');
+            var show2 = document.querySelectorAll('[class=show]');
+            console.log(show.length);
+            console.log(show2[0].outerHTML);
         }
     </script>
 </head>
@@ -20,7 +20,7 @@
     <div>sadfasasdfsafa</div>
     <div>sadfasasdfsafa</div>
 </div>
-<div class="test">1</div>
+<div class="test show">1</div>
 <div class="test">2</div>
 <div class="test">3</div>
 </body>

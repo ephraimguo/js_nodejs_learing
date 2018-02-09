@@ -197,6 +197,9 @@ li.show{
     color: #2c70dd;
     line-height: 25px;
 }
+.display nav li>a:hover{
+    cursor: pointer;
+}
 .display nav li:last-child{
     text-align: center;
     border: none;
