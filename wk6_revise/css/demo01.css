@@ -1,0 +1,11 @@
+body > .div1 {
+  width: 100px;
+  height: 200px;
+  background-color: #e4e4e4; }
+  body > .div1 a {
+    color: #aaaaaa;
+    display: block; }
+    body > .div1 a:visited {
+      color: gold; }
+    body > .div1 a:hover {
+      color: #13acd4; }
