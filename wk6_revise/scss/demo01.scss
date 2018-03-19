@@ -1,0 +1,17 @@
+body>.div1{
+  width: 100px;
+  height: 200px;
+  background-color: #e4e4e4;
+
+  a{
+    color: #aaaaaa;
+    display: block;
+
+    &:visited{
+      color: gold;
+    }
+    &:hover{
+      color: #13acd4;
+    }
+  }
+}
