@@ -5,23 +5,20 @@
     <title>test</title>
     <script>
         window.onload = function () {
-            var show = document.querySelectorAll('.test');
-            var show2 = document.querySelectorAll('[class=show]');
-            console.log(show.length);
-            console.log(show2[0].outerHTML);
+            var a = [11,22,33];
+            for(let i = 0; i<5; i++){
+                if(a[i]){
+                    console.log(a[i]);
+                }
+                else{
+                    console.log('error');
+                }
+            }
         }
     </script>
 </head>
 <body>
 <nav></nav>
-<div class="test">0
-    <div>sadfas</div>
-    <div>sadfasasdfsafa</div>
-    <div>sadfasasdfsafa</div>
-    <div>sadfasasdfsafa</div>
-</div>
-<div class="test show">1</div>
-<div class="test">2</div>
-<div class="test">3</div>
+
 </body>
 </html>

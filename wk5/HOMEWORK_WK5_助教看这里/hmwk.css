@@ -52,6 +52,8 @@ span.description{
 .main{
   /*border:1px solid black;*/
   min-height: 500px;
+  padding-right: 150px;
+    position: relative;
 }
 
 /* main navs*/
@@ -122,6 +124,23 @@ nav>ul>li:nth-child(3):hover>.dropdown-1{
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+    float: left;
+}
+
+.main > .right{
+  float: left;
+  height: 200px;
+  width: 150px;
+  border: 1px solid crimson;
+  box-sizing: border-box;
+  margin-left: -150px;
+    position: relative;
+}
+
+.main::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .product>h2{
@@ -193,10 +212,10 @@ footer>div p{
     display:block;
     position: relative;
   }
-    div.list{
-        width: 100%;
+  div.list{
+      width: 100%;
 
-    }
+  }
   .active{
     display: block;
   }
@@ -217,8 +236,6 @@ footer>div p{
     box-sizing: border-box;
     border-left: 2px solid #fff;
   }
-
-
 }
 
 

@@ -91,35 +91,47 @@ window.onload = function () {
                 aNavUl.forEach(ul=>{ul.className = ''});
                 aPhotoList[index].className = 'photo-list show';
                 aAlbum[index].className = 'album show';
-
                 addPagination(index);
+                pageBtnFunc();
+
             };
         });
     }
     addDisplay();// adding display the photo panel function called
 
+    //想不出来怎么写了。。。。
     //page directing function for page btn
     function pageBtnFunc(){
         let sNavUl = document.querySelectorAll('.display>nav>ul[class=show]')[0];
         let aPageBtn = sNavUl.querySelectorAll('li>a');
         let sPhotoList = document.querySelector('.wrapper>[class*=show]');
         let sPhoto = sPhotoList.querySelectorAll('.photo');
-        // let phHtml = '';
-        // for(let i=0; i<5; i++){
-        //     phHtml += sPhoto[i].outerHTML;
-        // }
-        // sPhotoList.innerHTML = phHtml;
-        aPageBtn.forEach(pBtn=>{
-            pBtn.onclick = function(){
-                alert(pBtn.index);
-                let phHtml2 = '';
-                for(let i=(pBtn.index)*5; i<(pBtn.index+1)*5; i++){
-                    sPhoto[i].style.display = 'inline-block';
-                }
-                // console.log(phHtml2);
-                sPhotoList.innerHTML = phHtml2;
-            };
+        let photoArr = [];
+        sPhoto.forEach(sph=>{
+            photoArr.push(sph);
         });
+        console.log(typeof photoArr[1]);
+        sPhotoList.innerHTML = '';
+        for(let i=0; i<5; i++){
+            if(photoArr[i]){
+                sPhotoList.appendChild(photoArr[i]);
+            }
+            else{
+                console.log('undefined');
+            }
+        }
+        // aPageBtn.forEach(pBtn=>{
+        //     pBtn.onclick = function(){
+        //         alert(pBtn.index);
+        //         let phHtml2 = '';
+        //         for(let i=(pBtn.index)*5; i<(pBtn.index+1)*5; i++){
+        //             sPhoto[i].style.display = 'inline-block';
+        //         }
+        //         // console.log(phHtml2);
+        //         sPhotoList.innerHTML = phHtml2;
+        //     };
+        // });
+
     }
     pageBtnFunc();
 
@@ -140,6 +152,7 @@ window.onload = function () {
                 oWrapper.removeChild(aPhotoList[i]);
                 arrAlb.splice(i, 1);
                 oNav.removeChild(aNavUl[i]);
+                pageBtnFunc();
             }
         });
     }
@@ -223,7 +236,6 @@ window.onload = function () {
 
     }
     addEvenDelPh();
-    pageBtnFunc();
 };
 
 
