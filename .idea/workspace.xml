@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/moduleA.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/moduleB.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/moduleE.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/runA.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/runB.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/runE.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/2modules/runFS.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/__dirname&amp;__filename.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/access.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/appendFile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyDir_noOriginFunction_demoOnly.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyFile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/mkDir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/readdir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/state.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/readFile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readF.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/07.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/10.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l09.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,48 +19,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="readFile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/readFile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readF.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readF.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/f.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/f.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48379803">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="382">
+                  <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="10.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/10.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,18 +72,12 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wk6/Sass/sass/demo3.scss" />
-        <option value="$PROJECT_DIR$/wk6/Sass/page/demo4.html" />
-        <option value="$PROJECT_DIR$/wk6/Sass/sass/demo4.scss" />
-        <option value="$PROJECT_DIR$/wk6/Sass/sass/demo5.scss" />
-        <option value="$PROJECT_DIR$/wk6/Sass/page/demo5.html" />
-        <option value="$PROJECT_DIR$/wk6/Sass/sass/demo05.scss" />
-        <option value="$PROJECT_DIR$/wk6/Sass/page/demo6.html" />
         <option value="$PROJECT_DIR$/wk6/Sass/css/demo6.css" />
         <option value="$PROJECT_DIR$/wk6/Sass/sass/demo6.scss" />
         <option value="$PROJECT_DIR$/wk6/Sass/sass/demo9.scss" />
@@ -154,6 +122,13 @@
         <option value="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readFile.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/readFile.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readF.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/package.json" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/users.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/07.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l09.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/10.js" />
       </list>
     </option>
   </component>
@@ -175,6 +150,7 @@
     <handled-path value="$PROJECT_DIR$/wk6/Sass/node_modules" />
     <handled-path value="$PROJECT_DIR$/wk6_revise/node_modules" />
     <handled-path value="$PROJECT_DIR$/wk7_nodeJs/2modules/node_modules" />
+    <handled-path value="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
@@ -197,6 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,21 +191,31 @@
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="4fileSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="3fileSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
               <item name="4fileSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="dir1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+              <item name="5express" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+              <item name="5express" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,7 +433,10 @@
       <workItem from="1521424420248" duration="3177000" />
       <workItem from="1521431844178" duration="5024000" />
       <workItem from="1521508608305" duration="284000" />
-      <workItem from="1521525846780" duration="7549000" />
+      <workItem from="1521525846780" duration="7649000" />
+      <workItem from="1521594179260" duration="89000" />
+      <workItem from="1521594679476" duration="4944000" />
+      <workItem from="1521615039524" duration="4612000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -671,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521445129843</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="wk7 file system">
+      <created>1521538199974</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1521538199974</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267170000" />
+    <option name="totallyTimeSpent" value="276915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,16 +688,16 @@
     <frame x="0" y="22" width="1680" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20433997" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20012055" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4957529" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4957529" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3083049" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38225257" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,7 +764,8 @@
     <MESSAGE value="Problem: cannot upload same photo twice~~ 阿曾哥看这里" />
     <MESSAGE value="split page failed.." />
     <MESSAGE value="wk5 homework re-submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="wk5 homework re-submit" />
+    <MESSAGE value="wk7 file system" />
+    <option name="LAST_COMMIT_MESSAGE" value="wk7 file system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,71 +774,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk6/Sass/css/demo16.css" />
-    <entry file="file://$PROJECT_DIR$/wk6/Sass/sass/demo16.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/Sass/css/example.css" />
-    <entry file="file://$PROJECT_DIR$/wk4/meta/meta_responsive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/Sass/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/Sass/page/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk6/Sass/sass/example.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk5/layout_practise/practise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -896,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/homework/4Async_sleep.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk5/HOMEWORK_WK5_助教看这里/bird.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -919,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="135" column="16" lean-forward="false" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,23 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/2modules/moduleA.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/2modules/moduleB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,9 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,15 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/__dirname&amp;__filename.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,6 +965,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/readFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/f.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readF.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyDir_noOriginFunction_demoOnly.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/readdir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1093,55 +1035,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyDir_noOriginFunction_demoOnly.js">
+    <entry file="file://$PROJECT_DIR$/wk3/homework/4Async_sleep.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="120">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/__dirname&amp;__filename.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/mkDir.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/readdir.js">
+    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="15">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/readFile.js">
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/2modules/moduleB.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readF.js">
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/2modules/moduleA.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/f.txt">
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/07.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/f.txt">
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l09.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/10.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
