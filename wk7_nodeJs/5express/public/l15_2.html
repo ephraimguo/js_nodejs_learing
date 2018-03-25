@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>l15-2 photo upload ajax</title>
+</head>
+<body>
+    <input type="file" multiple>
+
+
+<script>
+    const input = document.querySelector("input[type=file]");
+    input.onchange = function(event){
+        var formdata = new FormData();
+        for(let file of event.target.files){
+            formdata.append("multiFiles", file);
+        }
+        upload(formdata);
+    };
+
+
+    function upload(formdata){
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "/l14/xhrsingle");
+        xhr.onreadystatechange = function(){
+            if(xhr.status===200 && xhr.readyState===4){
+                console.log(xhr.response);
+            }
+        };
+        xhr.send(formdata);
+    }
+
+
+</script>
+</body>
+</html>
