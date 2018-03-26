@@ -1,19 +1,14 @@
-var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
+var favicon = require('serve-favicon');
 var logger = require('morgan');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
 var sassMiddleware = require('node-sass-middleware');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var my07 = require('./routes/07');
-var my09 = require('./routes/l09');
-var my10 = require('./routes/l10');
-var my11 = require('./routes/l11');
-var my12 = require('./routes/l12');
-var my14 = require('./routes/l14');
-var my15 = require('./routes/l15');
+var index = require('./routes/index');
+var users = require('./routes/users');
+var my14_2 = require('./routes/l14_2');
 
 var app = express();
 
@@ -21,9 +16,11 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+// uncomment after placing your favicon in /public
+//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
@@ -33,23 +30,15 @@ app.use(sassMiddleware({
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.post("/testing",function(req, res){
-    res.send("testing content");
-});
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/07',my07);
-app.use('/l09', my09);
-app.use('/l10', my10);
-app.use('/l11', my11);
-app.use("/l12", my12);
-app.use("/l14", my14);
-app.use("/lesson15", my15);
+app.use('/', index);
+app.use('/users', users);
+app.use('/l14_2', my14_2);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404));
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
 
 // error handler
