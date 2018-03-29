@@ -5,42 +5,38 @@
     <title>l15--ajax</title>
 </head>
 <body>
-<a href="/lesson15/?name=guo">guo</a>
-<a href="/lesson15/?name=yan">yan</a>
-<a href="/lesson15/?name=yu">yu</a>
+<a href="/l15/?name=guo">guo</a>
+<a href="/l15/?name=yan">yan</a>
+<a href="/l15/?name=yu">yu</a>
 
 
 <ul class="content">
 
 </ul>
 
-<script>
-    const anchor = document.querySelectorAll("a");
-    const oUl = document.querySelector(".content");
-    anchor.forEach(a=>{
-        a.addEventListener("click", function(event){
+<script type="text/javascript">
+    const aAnchor = document.querySelectorAll("a");
+    var oUl = document.querySelector(".content");
+    aAnchor.forEach(a=>{
+        a.addEventListener('click', function(event){
             event.preventDefault();
             const href = event.target.getAttribute("href");
+            console.log(href);
+
             var xhr = new XMLHttpRequest();
-
-            var formdata = new FormData();
-
             xhr.open("GET", href);
             xhr.onreadystatechange = function(){
-                console.log(xhr.status);
-                console.log(xhr.readyState);
-                if(xhr.status===200 && xhr.readyState===4){
+
+                if(xhr.readyState ===4 && xhr.status ===200){
                     console.log(xhr.response);
-                    let txt = xhr.response;
-                    let aLi = `
-                    <li>${txt}</li>
+                    var oLi = `
+                    <li>${xhr.response}</li>
                     `;
-                    oUl.innerHTML += aLi;
+                    oUl.innerHTML += oLi;
                 }
             };
             xhr.send();
-        })
-
+        });
     });
 
 </script>

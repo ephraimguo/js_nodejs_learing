@@ -8,7 +8,11 @@ var sassMiddleware = require('node-sass-middleware');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var test = require("./routes/test");
+var my14 = require("./routes/l14");
 var my14_2 = require('./routes/l14_2');
+var my15 = require("./routes/l15");
+var my16 = require('./routes/l16');
 
 var app = express();
 
@@ -32,7 +36,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/l14', my14);
 app.use('/l14_2', my14_2);
+app.use('/l15', my15);
+app.use('/l16', my16);
+app.use("/test", test);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

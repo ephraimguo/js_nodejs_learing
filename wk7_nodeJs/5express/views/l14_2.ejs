@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+
+    </script>
+</head>
+<body>
+
+<form action="/l14_2/up" method="post" enctype="multipart/form-data">
+    <input type="file" name="singleFile_2">
+    <input type="submit" value="add">
+</form>
+
+
+<ul>
+    <% list.forEach(function(fd){%>
+    <%console.log(fd)%>
+    <li><img src="/l14_2/img/<%=fd.filename%>" alt="picture" width="100" height="100"></li>
+    <%})%>
+</ul>
+
+</body>
+
+
+</html>

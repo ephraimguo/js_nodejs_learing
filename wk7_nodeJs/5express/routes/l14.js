@@ -23,17 +23,16 @@ r.post("/xhr", single, function(req, res, next){
     res.send(req.file);
 });
 
-r.get("/img/:imgname",function (req,res) {
-    // 图片文件数据的［读取流］
-    const rs = fs.createReadStream("upload/"+req.params.imgname);
-    rs.pipe(res);
+r.get("/img/:imgname", function(req, res, next){
+    // img reading stream
+    const rs = fs.createReadStream( __dirname+"/upload/"+req.params.imgname);
+    rs.pipe(res);//将数据缓缓的流去浏览器, 连接到响应流
 });
-// r.post("/xhr", single, function(req, res, next){
-//     res.send(req.file);
-// });
+
 r.post("/multi", multi, function(req, res, next){
     res.send(req.files);
 });
+
 r.post("/mix", mix, function(req, res, next){
     res.send(req.files);
 });

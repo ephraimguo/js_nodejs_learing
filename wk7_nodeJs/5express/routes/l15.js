@@ -1,12 +1,14 @@
 const exp = require("express");
 const r = exp.Router();
 
-// var xhr = new XMLHttpRequest();
-
-r.get("/", function(req, res, next){
-    res.send(req.query.name);
+r.get("/:id", function(req, res){
+    console.log(req.params.id);
+    res.send(req.params.id);
 });
 
+r.get("/", function(req, res){
+    res.send(req.query.name);
+});
 
 
 module.exports = r;

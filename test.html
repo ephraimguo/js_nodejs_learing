@@ -5,20 +5,19 @@
     <title>test</title>
     <script>
         window.onload = function () {
-            var a = [11,22,33];
-            for(let i = 0; i<5; i++){
-                if(a[i]){
-                    console.log(a[i]);
-                }
-                else{
-                    console.log('error');
-                }
+            for (let i = 0; i <5; i++){
+                var btn = document.createElement("button");
+                btn.innerText = "button" +i;
+                btn.addEventListener("click", function (event) {
+                    console.log(i);
+                });
+                document.body.appendChild(btn);
             }
         }
     </script>
 </head>
 <body>
-<nav></nav>
+
 
 </body>
 </html>
