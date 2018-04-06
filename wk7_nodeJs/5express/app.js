@@ -13,6 +13,7 @@ var my14 = require("./routes/l14");
 var my14_2 = require('./routes/l14_2');
 var my15 = require("./routes/l15");
 var my16 = require('./routes/l16');
+var myalbum = require('./routes/album_router');
 
 var app = express();
 
@@ -40,6 +41,7 @@ app.use('/l14', my14);
 app.use('/l14_2', my14_2);
 app.use('/l15', my15);
 app.use('/l16', my16);
+app.use('/album', myalbum);
 app.use("/test", test);
 
 // catch 404 and forward to error handler
@@ -54,7 +56,6 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
   // render the error page
   res.status(err.status || 500);
   res.render('error');

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title><%=title%></title>
+  <style>
+
+  </style>
+</header>
+
+<body>
+
+<h1><%=title%></h1>
+<form action="/album/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="myImg">
+  <input type="submit" value="go">
+</form>
+<div class="photos">
+  <% nList.forEach(names=>{ %>
+    <p> <%=names%></p>
+    <img width="100" height="100" src="/album/img/<%=names%>" alt="why there is no photo displayed!!!!!">    <!-- /img is using GET method-->
+  <% }) %>
+</div>
+</body>
+
+</html>
