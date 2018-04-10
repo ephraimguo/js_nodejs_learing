@@ -1,14 +1,12 @@
-const r = require("express").Router();
+const router = require('express').Router();
 
-r.post("/", function(req, res){
-    console.log(req.body);
-    // res.redirect("back");
-    res.send(req.body);
+router.post('/', function(req, res){
+  console.log(req.body);
+  res.send();
 });
 
-r.get('/', function(req, res){
-    console.log(req.query);
-    res.send();
+router.get('/',function(req, res){
+  res.render("l16", {});
 });
 
-module.exports = r;
+module.exports = router;

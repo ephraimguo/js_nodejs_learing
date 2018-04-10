@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lesson 18</title>
+  <style>
+    .error{
+      color: red;
+    }
+    .success{
+      color: #45af3b;
+      font-weight: bold;
+    }
+  </style>
+  <script>
+    window.onload = function(){
+      const form = document.querySelector("form");
+
+      const errName = form.querySelector("div[err-data=name]");
+      const errEmail = form.querySelector("div[err-data=email]");
+      const successInfo = form.querySelector('div.success');
+
+      form.onsubmit = function(event){
+        event.preventDefault();
+
+        var inputName = form.querySelector('input');
+        var name = inputName.value;
+        var email = inputName.nextElementSibling.nextElementSibling.value;
+
+
+        fetch("/l18",{
+          method: "POST",
+          headers: {"Content-Type":"application/json"},
+          body: JSON.stringify({name, email})
+        }).then(res=>res.text())
+          .then(err=>{
+            if(err){
+              err = JSON.parse(err); // text -> json
+              if(err.name){
+                errName.innerHTML = err.name;
+              }
+              if(err.email){
+                errEmail.innerHTML = err.email;
+              }
+            }
+            else{
+              successInfo.innerHTML = 'key in successfully'
+            }
+          });
+      }
+    }
+  </script>
+</head>
+<body>
+<form action="/l18" method="post">
+  <div class="success"></div>
+
+  <div class="error" err-data="name"></div>
+  <input type="text" name="name">
+
+  <div class="error" err-data="email"></div>
+  <input type="text" name="email">
+  <br>
+  <input type="submit" name="" value="send">
+</form>
+
+
+</body>
+</html>

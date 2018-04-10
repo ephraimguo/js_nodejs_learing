@@ -1,141 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dot/_limitProperties.jst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dot/const.jst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dot/custom.jst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dot/missing.def" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dot/ref.jst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dotjs/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dotjs/propertyNames.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/lib/dotjs/validate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ajv/scripts/info" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/co/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/cryptiles/node_modules/boom/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/cryptiles/node_modules/boom/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/express/node_modules/qs/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/express/node_modules/qs/lib/stringify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/express/node_modules/qs/lib/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/fast-deep-equal/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/fast-deep-equal/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/fast-json-stable-stringify/benchmark/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/fast-json-stable-stringify/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/fast-json-stable-stringify/test/nested.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/har-schema/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/har-schema/lib/afterRequest.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/har-schema/lib/browser.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/har-schema/lib/creator.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/har-schema/lib/response.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/har-validator/lib/promise.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/json-schema-traverse/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/create_string.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/string.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/functions.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/output.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/parser.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass2scss.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/units.o.d" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/obj.target/binding/src/sass_context_wrapper.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/null.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/number.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/listize.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/prelexer.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_c.o" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/build/src/libsass.Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/performance-now/src/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/album_router.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/views/album_live.ejs" />
+    <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="session">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l18.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/public/stylesheets/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l18.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l19.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/views/l16.ejs" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/append-field/package.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/append-field/package.json" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/commander/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/cryptiles/lib/index.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/cryptiles/lib/index.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/node_modules/isarray/package.json" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/package.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/package.json" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/test/fixtures/many-wrongboundary/original" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/test/fixtures/many-wrongboundary/original" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/test/fixtures/nested-full/part2" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/test/fixtures/nested-full/part2" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/test/fixtures/nested/part1.header" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/dicer/test/fixtures/nested/part1.header" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/express/History.md" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/express/History.md" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/form-data/README.md" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/form-data/README.md" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/generate-function/example.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/generate-function/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/generate-object-property/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/getpass/node_modules/assert-plus/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hawk/example/usage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hawk/lib/browser.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hawk/lib/browser.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hawk/lib/server.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hawk/lib/server.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hoek/CONTRIBUTING.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hoek/lib/index.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hoek/lib/index.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/hoek/test/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/ipaddr.js/package.json" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/is-my-ip-valid/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/is-my-json-valid/test/json-schema-draft4/default.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/middleware.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/middleware.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/package.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/package.json" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/test/fixtures/index.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/test/middleware.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass-middleware/test/middleware.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/callback_bridge.h" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/callback_bridge.h" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/Makefile" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/Makefile" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/configure.ac" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/configure.ac" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/docs/build-with-mingw.md" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/docs/build-with-mingw.md" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/include/sass.h" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/include/sass.h" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/context.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/context.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/cssize.hpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/cssize.hpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/emitter.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/emitter.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/file.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/file.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/inspect.hpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/inspect.hpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/json.hpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/json.hpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/output.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/output.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/parser.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/parser.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/plugins.hpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/plugins.hpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/sass.hpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/sass.hpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/sass_util.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/sass_util.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/subset_map.hpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/subset_map.hpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/sass_types/number.cpp" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/sass_types/number.cpp" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/sass_types/sass_value_wrapper.h" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/src/sass_types/sass_value_wrapper.h" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/test/fixtures/watcher/main/partials/_two.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/test/fixtures/watcher/main/three.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/node-sass/test/watcher.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/request/node_modules/qs/test/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/sntp/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/sntp/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/sntp/test/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/stdout-stream/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/stdout-stream/test/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/true-case-path/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules/verror/node_modules/assert-plus/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/package.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/package.json" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l10.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l11.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l15.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_3.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l16.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l16_2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/stylesheets/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/stylesheets/style.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/stylesheets/style.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/08bcff9b822fd500412a8fec2384ac5f" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/08d87ba420ec258d288c1982399f46d9" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/0ee21e74017444b2d5df4fdf8b41e057" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/19eb09016351f22af7d44c79dcb9e2b6" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/25b2b514243dd7141cfdf536ecc5a29c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/2dcea7ae4904f4975cd18613b1a42130" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/2f50a436e3b7579dc6094eb97de7923a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/67302b7e0c01defb89ac8b72ab494f4e" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/7387e954ec051e299af37f557760357a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/860e0475800a548f11c3b8f09cc29fa8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/9acc5f61c06e7e8e4e63253432329e97" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/a2373cd61b252c77847ce6e6f13a4f58" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/ba5334ffa859b6454e94713112ac4cbd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/0659b32aa61d93ea1522561680ace899" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/10bcebb7c93d87aa521e73b9beee3203" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/2e998ddf0d5be8391046099e7b54c2b8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/3a7a0d950eece591e26ab85e6386564e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/422aed6eae5e0c4cf1203c99e00a742d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/4c5e3900a21264fe8fda75d23e40c54e" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/57166a58c82d08b0662ea0e55a29b508" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/6373dd3a4b2fdba5d20f4b06e6b99f28" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/73fb86559091f12a195ebc795c3795f8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/7acfce0f0d10def79748f515acfed64a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/8422ba1bc810206cf0e298e6fd79d088" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/9771c0d0e035b57bb3c45422aba79e83" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/b1fa2de5ae3352712cec2d43f143222c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/d4b4dd4da3827feef842c731ae5a745f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/d58e582214a6530231f37c246f228360" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/e2f60457e2fdff77b35344e52405484b" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/e873ea3e221245e50da487b5c57f04ee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/e9b25a72d1c893e8bc6bcf275f0cc3fe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/f00a5bb9682c99d28bead7118519c5e8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/f173826e97437d4a38d20f37a0e9336a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/f95312ef815c9bce7fbfe0e552c38750" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/ff77d3dc9731cf8102a1e2c7548dc912" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" />
+      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -148,24 +46,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4216321">
+    <splitter split-orientation="horizontal" split-proportion="0.46784922">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/app.js">
+        <leaf>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="album_router.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/album_router.js">
+          <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+                <state relative-caret-position="360">
+                  <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -175,41 +73,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="album_live.ejs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/album_live.ejs">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="part.ejs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/part.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page1.ejs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/page1.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="phName.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -247,14 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/__dirname&amp;__filename.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/access.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/state.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/appendFile.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyFile.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/dir1/md.txt" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyDir_noOriginFunction_demoOnly.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/mkDir.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/3fileSystem/readdir.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readFile.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1/readFile.js" />
@@ -290,14 +150,22 @@
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l14.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_3.html" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l16_2.html" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l16.html" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/album.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/views/album_live.ejs" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/db.json" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/album_router.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/views/l16.ejs" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l18.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l18.html" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l19.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/views/error.ejs" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/app.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js" />
+        <option value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js" />
       </list>
     </option>
   </component>
@@ -321,11 +189,12 @@
     <handled-path value="$PROJECT_DIR$/wk6_revise/node_modules" />
     <handled-path value="$PROJECT_DIR$/wk7_nodeJs/2modules/node_modules" />
     <handled-path value="$PROJECT_DIR$/wk7_nodeJs/5express/node_modules" />
+    <handled-path value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
+    <option name="x" value="618" />
     <option name="y" value="23" />
-    <option name="width" value="1912" />
+    <option name="width" value="1159" />
     <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -344,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -356,32 +224,51 @@
             <path>
               <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
+              <item name="wk1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
+              <item name="wk1" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="5express" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="5express" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="5express" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,19 +293,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/ephraimguo/Study/Web/CSDN_WebFullStack_Engineer/js_nodejs_learing/wk7_nodeJs/5express/routes/l11.js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wk7_nodeJs/5express" />
+      <recent name="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里" />
+      <recent name="$PROJECT_DIR$/wk6/Sass/sass" />
+      <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
+      <recent name="$PROJECT_DIR$/wk5/backgroundPlay" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wk7_nodeJs/5express/routes" />
       <recent name="$PROJECT_DIR$/wk7_nodeJs/5express/public" />
       <recent name="$PROJECT_DIR$/wk7_nodeJs/4fileSystem/dir1" />
       <recent name="$PROJECT_DIR$/wk7_nodeJs" />
       <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wk6/HOMEWORK_WK6_助教看这里" />
-      <recent name="$PROJECT_DIR$/wk6/Sass/sass" />
-      <recent name="$PROJECT_DIR$/wk5/HOMEWORK_助教看这里" />
-      <recent name="$PROJECT_DIR$/wk5/backgroundPlay" />
-      <recent name="$PROJECT_DIR$/wk5/flex_cal" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -611,7 +498,8 @@
       <workItem from="1521963675069" duration="9525000" />
       <workItem from="1522199188538" duration="18981000" />
       <workItem from="1522891592889" duration="2075000" />
-      <workItem from="1522978832569" duration="13462000" />
+      <workItem from="1522978832569" duration="13548000" />
+      <workItem from="1523330905808" duration="13263000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -872,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521707448698</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="wk7 revise">
+      <created>1523006293284</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1523006293284</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339400000" />
+    <option name="totallyTimeSpent" value="352749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,16 +783,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1912" height="1008" extended-state="0" />
+    <frame x="618" y="23" width="1159" height="1008" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1835008" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20738137" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4957529" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30898875" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30898875" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -991,106 +887,17 @@
     <MESSAGE value="wk7 expressing" />
     <MESSAGE value="wk7 obtaining data from browser" />
     <MESSAGE value="wk7 ajax and fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="wk7 ajax and fetch" />
+    <MESSAGE value="wk7 revise" />
+    <MESSAGE value="session" />
+    <option name="LAST_COMMIT_MESSAGE" value="session" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/f.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/4fileSystem/readF.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyDir_noOriginFunction_demoOnly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/readdir.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/copyFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/homework/4Async_sleep.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/__dirname&amp;__filename.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/3fileSystem/mkDir.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/Promise/demo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/2modules/moduleB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/2modules/moduleA.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1112,13 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l11.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1140,13 +941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l10.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l10.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1189,13 +984,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/14_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/14_2.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/l14_2.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1224,20 +1013,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html" />
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l15.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l14_up.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l14_2.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1253,44 +1030,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l16_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l16.html" />
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_2.html" />
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l16_2.html" />
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_3.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1303,7 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,31 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/page1.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1355,10 +1072,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/page1.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/album_router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/ddd/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/l16.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l18.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/l18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l19.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
