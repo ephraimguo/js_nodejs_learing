@@ -1,39 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="session">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/public/l18.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/public/stylesheets/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l18.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l19.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/views/l16.ejs" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/app.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/0659b32aa61d93ea1522561680ace899" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/10bcebb7c93d87aa521e73b9beee3203" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/2e998ddf0d5be8391046099e7b54c2b8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/3a7a0d950eece591e26ab85e6386564e" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/422aed6eae5e0c4cf1203c99e00a742d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/4c5e3900a21264fe8fda75d23e40c54e" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/57166a58c82d08b0662ea0e55a29b508" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/6373dd3a4b2fdba5d20f4b06e6b99f28" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/73fb86559091f12a195ebc795c3795f8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/7acfce0f0d10def79748f515acfed64a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/8422ba1bc810206cf0e298e6fd79d088" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/9771c0d0e035b57bb3c45422aba79e83" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/b1fa2de5ae3352712cec2d43f143222c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/d4b4dd4da3827feef842c731ae5a745f" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/d58e582214a6530231f37c246f228360" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/e2f60457e2fdff77b35344e52405484b" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/e873ea3e221245e50da487b5c57f04ee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/e9b25a72d1c893e8bc6bcf275f0cc3fe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/f00a5bb9682c99d28bead7118519c5e8" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/f173826e97437d4a38d20f37a0e9336a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/f95312ef815c9bce7fbfe0e552c38750" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/imgsTemp/ff77d3dc9731cf8102a1e2c7548dc912" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js" />
-      <change beforePath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" afterPath="$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,12 +17,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.46784922">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -62,7 +31,7 @@
           <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="375">
                   <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
                   <folding />
                 </state>
@@ -72,7 +41,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/app.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -192,7 +161,7 @@
     <handled-path value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="618" />
+    <option name="x" value="492" />
     <option name="y" value="23" />
     <option name="width" value="1159" />
     <option name="height" value="1008" />
@@ -213,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,38 +207,10 @@
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
               <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,7 +441,8 @@
       <workItem from="1522199188538" duration="18981000" />
       <workItem from="1522891592889" duration="2075000" />
       <workItem from="1522978832569" duration="13548000" />
-      <workItem from="1523330905808" duration="13263000" />
+      <workItem from="1523330905808" duration="13326000" />
+      <workItem from="1523410649156" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -767,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523006293284</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="session">
+      <created>1523352893873</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1523352893873</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352749000" />
+    <option name="totallyTimeSpent" value="352834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,19 +733,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="23" width="1159" height="1008" extended-state="0" />
-    <editor active="true" />
+    <frame x="492" y="23" width="1159" height="1008" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20738137" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2618629" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4957529" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30898875" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1038,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="338" column="2" lean-forward="false" selection-start-line="338" selection-start-column="2" selection-end-line="338" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,23 +1050,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/ddd/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/ddd/a.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,21 +1114,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="375">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
