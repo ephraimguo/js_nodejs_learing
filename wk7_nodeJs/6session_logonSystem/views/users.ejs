@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+    a{
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <% if(user) {%>
+    <nav>
+      <h4><%=user.userName%> Logged On</h4><br>
+      <a href="/users/logout">Log Out</a>
+    </nav>
+  <% }else{ %>
+
+
+  <form action="/users/login" method="post">
+    <input type="text" name="userName" value="">
+    <input type="text" name="password" value="">
+    <%=num1%> + <%=num2%> = <input type="text" name="vNum">
+    <input type="submit" name="" value="Log In">
+  </form>
+  <br>
+  <br>
+  <form action="/users/register" method="post">
+    <input type="text" name="userName" value="">
+    <input type="text" name="password" value="">
+    <input type="text" name="confirmPass" value="">
+    <img src="/users/vpng" alt="verfication pic">
+    <input type="text" name="vNum" value="">
+    <input type="submit" name="" value="Register">
+  </form>
+  <br>
+  <br>
+
+
+  <% } %>
+  <form action="/users/update_pswd" method="post">
+    <input type="text" name="userName" placeholder="key in the username">
+    <input type="text" name="new_pswd" placeholder="new password">
+    <input type="submit" value="change">
+  </form>
+
+</body>
+</html>
