@@ -7,7 +7,7 @@ let res1 = re.exec(str);
 console.log(res);
 
 do{
-    console.log(res1)
+    console.log(res1);
     res1 = re.exec(str);
 }
 while(res1);
