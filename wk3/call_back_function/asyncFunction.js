@@ -1,9 +1,12 @@
-function B(call){
-    setTimeout(call, 3000);
+function B(callback){
+  setTimeout(function(){
+    callback(12345)
+  }, 2000);
 }
 
-B(function (callback) {
-    console.log('aaa');
-});
+const A = function (v){
+  console.log('this is functionA which is called by function B '+ v);
+};
 
-console.log('sdfsdf');
+A();
+B(A);

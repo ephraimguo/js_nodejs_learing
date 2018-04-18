@@ -13,7 +13,7 @@ p.then(r=>{
     console.log(r+456);
 });
 
-setTimeout(console.log('----------------------'))
+setTimeout(console.log('----------------------'));
 
 function asyncFn(a){
     return new Promise((res, rej)=>{
