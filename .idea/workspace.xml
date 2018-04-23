@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l12_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l13_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l14_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l16_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l17_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l18_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l19_d1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/last_validator.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-0-6043600277390360286.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-0-6043600277390360286.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-2-4490999803983823644.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-2-4490999803983823644.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-7-4490999803983823644.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-7-4490999803983823644.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2018-04-18T07-03-17Z-00000" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.2018-04-18T07-03-17Z-00000" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" afterPath="$PROJECT_DIR$/mongodb/bin/data/diagnostic.data/metrics.interim" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-1-6043600277390360286.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-1-6043600277390360286.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-3-4490999803983823644.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-3-4490999803983823644.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-8-4490999803983823644.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-8-4490999803983823644.wt" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/journal/WiredTigerLog.0000000005" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/mongod.lock" afterPath="$PROJECT_DIR$/mongodb/bin/data/mongod.lock" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" afterPath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,31 +39,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="aSync_date18042018.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk3/call_back_function/aSync_date18042018.js">
+      <file leaf-file-name="l19_d1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l19_d1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="435">
+              <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="async_es7.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wk3/z-Await/async_es7.js">
+      <file leaf-file-name="last_validator.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/last_validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="revise_18042018.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wk3/Promise/revise_18042018.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,19 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l14_up.html" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/stylesheets/14_2.html" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/14_2.html" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/14_2.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/views/l14.ejs" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/views/l14_2.ejs" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/upload/l16.js" />
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/test.html" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/test.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l15.js" />
-        <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l15.html" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/public/l15_2.html" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l14_2.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/5express/routes/l14.js" />
@@ -128,6 +127,19 @@
         <option value="$PROJECT_DIR$/wk3/call_back_function/asyncFunction.js" />
         <option value="$PROJECT_DIR$/wk3/call_back_function/aSync_date18042018.js" />
         <option value="$PROJECT_DIR$/wk3/Promise/revise_18042018.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l12_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l11.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l13_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l14_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d3.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d2.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l16_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l17_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l18_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l19_d1.js" />
+        <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/last_validator.js" />
       </list>
     </option>
   </component>
@@ -155,9 +167,9 @@
     <handled-path value="$PROJECT_DIR$/wk8_mongoDB_mongoose/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="855" />
+    <option name="x" value="471" />
     <option name="y" value="23" />
-    <option name="width" value="1055" />
+    <option name="width" value="1124" />
     <option name="height" value="1007" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -176,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,48 +200,18 @@
             <path>
               <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="call_back_function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="Promise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk3" type="462c0819:PsiDirectoryNode" />
-              <item name="z-Await" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
-              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
-              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="wk8_mongoDB_mongoose" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NodeJs_Learning_CSDN" type="b2602c69:ProjectViewProjectNode" />
               <item name="NodeJs_Learning_CSDN" type="462c0819:PsiDirectoryNode" />
               <item name="wk8_mongoDB_mongoose" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -465,7 +449,12 @@
       <workItem from="1523840802178" duration="6007000" />
       <workItem from="1523927925858" duration="26000" />
       <workItem from="1524017469868" duration="6899000" />
-      <workItem from="1524035626989" duration="1928000" />
+      <workItem from="1524035626989" duration="1958000" />
+      <workItem from="1524461051849" duration="3355000" />
+      <workItem from="1524464640093" duration="1061000" />
+      <workItem from="1524469265390" duration="2700000" />
+      <workItem from="1524472906213" duration="1000" />
+      <workItem from="1524475752627" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -775,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524043558593</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="revised async">
+      <created>1524043576101</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1524043576101</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="393124000" />
+    <option name="totallyTimeSpent" value="400273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,19 +787,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="855" y="23" width="1055" height="1007" extended-state="0" />
+    <frame x="471" y="23" width="1124" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2843327" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21124206" sideWeight="0.49239543" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6310461" sideWeight="0.50560224" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4957529" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29021373" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.49439776" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -907,70 +903,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l14.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/album_live.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/part.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/page1.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/album_router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/phName.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/public/ddd/a.html" />
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/5express/routes/l16.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1110,13 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l6_t2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l4_d1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1124,18 +1049,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l8_d1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l6_d1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,26 +1147,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk3/Promise/revise_18042018.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk3/call_back_function/aSync_date18042018.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk3/z-Await/async_es7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk3/Promise/revise_18042018.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l6_t2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l12_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l14_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l15_d2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l16_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l8_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l13_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l17_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l18_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l19_d1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/last_validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
