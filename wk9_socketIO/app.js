@@ -4,7 +4,11 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var session = require('express-session')({
+  secret: "encrypt",
+  cookie: {maxAge: 60000*5}
+});
+var iosession = require('express-socket.io-session')(session);
 var index = require('./routes/index');
 var users = require('./routes/users');
 
@@ -17,6 +21,7 @@ server.listen(3000);
 const sockets = [];
 let firstSocket;
 
+io.use(iosession);
 io.on("connection", function(socket){
 
   socket.on('req', function(data, cb){
@@ -26,24 +31,10 @@ io.on("connection", function(socket){
 
   socket.on("speak", data=>{
     console.log(data);
-    io.emit('newspeak', data +" (time:"+ new Date()+")");
+    const num = ++socket.handshake.session.num;
+    socket.handshake.session.save();
+    io.emit('newspeak', 'num= '+num ,data +" (time:"+ new Date()+")");
   });
-
-
-
-  // test
-  // if(firstSocket){
-  //   console.log('firstSocket === socket', firstSocket === socket);
-  // }
-  // else{
-  //   firstSocket = socket;
-  // }
-
-  // socket.emit("welcome","hello world");
-  // socket.emit('welcome2', "welcome greeting");
-  // socket.on('quest',data=>{
-  //   console.log(data);
-  // })
 });
 
 // view engine setup
@@ -56,6 +47,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(session);
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);

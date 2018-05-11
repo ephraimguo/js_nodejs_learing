@@ -10,7 +10,7 @@
         const oList = document.querySelector('.list');
 
         socket.emit("req", "abc", function(res){
-          console.log('response')
+          console.log('response');
         });
 
         socket.on('newspeak', word => {
@@ -28,6 +28,7 @@
   </head>
   <body>
     <h1><%= title %></h1>
+    <p><%=num%></p>
     <p>Welcome to <%= title %></p>
 
     <input type="text" name="" onchange="speak(event)" value="">
