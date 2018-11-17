@@ -1,12 +1,12 @@
 .cube {
     width: 300px;
     height: 300px;
-    border: 10px solid black;
+    /*border: 10px solid black;*/
     transform-style: preserve-3d;
     position: relative;
     top: 200px;
     left: 200px;
-    transform: rotateX(30deg) rotateY(30deg) ;
+    transform: rotateX(10deg) rotateY(10deg) ;
     /*transform: rotateZ(30deg) rotateX(30deg);*/
 }
 
@@ -15,7 +15,7 @@
 }
 @keyframes rotating {
     0%{
-        transform:rotateX(30deg) rotateY(30deg);
+        transform:rotateX(10deg) rotateY(10deg);
     }
     25%{
         transform:rotateX(90deg) rotateY(90deg);
@@ -39,7 +39,7 @@
 }
 
 .part:nth-child(1){
-    background: yellow;
+    background: linear-gradient(to right, yellow, green);
     transform: translateY(150px) rotateX(90deg);
 
 }

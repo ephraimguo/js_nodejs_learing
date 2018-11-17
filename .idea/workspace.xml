@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66f3a5e-cf00-4124-aeeb-0386f7291296" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wk9_socketIO/public/ajax.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/WiredTiger.wt" afterDir="false" />
@@ -10,14 +9,9 @@
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-2-4490999803983823644.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-2-4490999803983823644.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/collection-7-4490999803983823644.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/collection-7-4490999803983823644.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-3-4490999803983823644.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-3-4490999803983823644.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/index-8-4490999803983823644.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/index-8-4490999803983823644.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/journal/WiredTigerLog.0000000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/bin/data/journal/WiredTigerLog.0000000014" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/bin/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wk9_socketIO/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wk9_socketIO/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wk9_socketIO/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wk9_socketIO/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wk9_socketIO/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wk9_socketIO/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wk9_socketIO/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wk9_socketIO/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wk9_socketIO/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/wk9_socketIO/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wk5/3D/demo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/wk5/3D/demo1.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,14 +24,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42323944">
+    <splitter split-orientation="horizontal" split-proportion="0.43138635">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wk9_socketIO/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+                <state relative-caret-position="26">
+                  <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -45,21 +39,66 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wk9_socketIO/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="338">
-                  <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+                  <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wk9_socketIO/views/index.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+                <state relative-caret-position="936">
+                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/index.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="users.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/users.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="988">
+                  <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="546">
+                  <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="demo1.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="demo1.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1456">
+                  <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -95,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/users.ejs" />
         <option value="$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js" />
         <option value="$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson3/demo1.js" />
@@ -146,6 +184,7 @@
         <option value="$PROJECT_DIR$/wk9_socketIO/routes/index.js" />
         <option value="$PROJECT_DIR$/wk9_socketIO/views/index.ejs" />
         <option value="$PROJECT_DIR$/wk9_socketIO/app.js" />
+        <option value="$PROJECT_DIR$/wk5/3D/demo1.css" />
       </list>
     </option>
   </component>
@@ -445,6 +484,53 @@
             <path>
               <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk5" type="462c0819:PsiDirectoryNode" />
+              <item name="3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk5" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk7_nodeJs" type="462c0819:PsiDirectoryNode" />
+              <item name="6session_logonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
+              <item name="wk8_mongoDB_mongoose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_nodejs_learing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_nodejs_learing" type="462c0819:PsiDirectoryNode" />
               <item name="wk9_socketIO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -717,7 +803,11 @@
       <workItem from="1525398449982" duration="2414000" />
       <workItem from="1525429445476" duration="64000" />
       <workItem from="1526001083543" duration="464000" />
-      <workItem from="1526001770951" duration="3286000" />
+      <workItem from="1526001770951" duration="3638000" />
+      <workItem from="1526538764501" duration="3964000" />
+      <workItem from="1527728219761" duration="3000" />
+      <workItem from="1529589025339" duration="532000" />
+      <workItem from="1529589578882" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="First commite b4 web full stack week2">
       <created>1516342441263</created>
@@ -1045,7 +1135,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427029000" />
+    <option name="totallyTimeSpent" value="431958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,16 +1150,17 @@
     <frame x="0" y="22" width="1680" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49239543" visible="true" weight="0.14406268" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49239543" visible="true" weight="0.20634921" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291714" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5081374" side_tool="true" weight="0.32060185" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4957529" weight="0.32764506" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49186257" visible="true" weight="0.25697675" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49186257" weight="0.25697675" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="0" sideWeight="0.50760454" side_tool="true" weight="0.21376085" />
@@ -1172,24 +1263,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/users.ejs">
+    <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk8_mongoDB_mongoose/lesson/l3_d1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/users.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="78">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1369,27 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/users.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1421,21 +1477,56 @@
     <entry file="file://$PROJECT_DIR$/wk9_socketIO/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk9_socketIO/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="936">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/views/users.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk7_nodeJs/6session_logonSystem/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wk9_socketIO/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="26">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wk5/3D/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
